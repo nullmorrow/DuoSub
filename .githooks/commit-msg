@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python tools/privacy_check.py --message "$1"

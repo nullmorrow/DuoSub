@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- DuoSub: a dark screen with two subtitle lines at the bottom — translation above,
+       original below with a row of furigana dots. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26366a"/>
+      <stop offset="1" stop-color="#121a33"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#43d6cc"/>
+      <stop offset="1" stop-color="#2aa6dc"/>
+    </linearGradient>
+    <linearGradient id="bottom" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffc54d"/>
+      <stop offset="1" stop-color="#ff8a3a"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="none" stroke="#ffffff" stroke-opacity="0.10" stroke-width="4"/>
+  <!-- the picture: a faint play mark -->
+  <path d="M112 44 L148 66 L112 88 Z" fill="#ffffff" fill-opacity="0.22"/>
+  <!-- translation line -->
+  <rect x="36" y="110" width="184" height="38" rx="19" fill="url(#top)"/>
+  <!-- furigana: an even row of dots over the original line -->
+  <circle cx="84" cy="168" r="6.5" fill="#ffd27a"/>
+  <circle cx="112" cy="168" r="6.5" fill="#ffd27a"/>
+  <circle cx="144" cy="168" r="6.5" fill="#ffd27a"/>
+  <circle cx="172" cy="168" r="6.5" fill="#ffd27a"/>
+  <!-- original line -->
+  <rect x="56" y="184" width="144" height="38" rx="19" fill="url(#bottom)"/>
+</svg>

@@ -1,0 +1,31 @@
+# DuoSub / 双语字幕工坊 — Python dependencies (pinned to the versions verified on the development machine, 2026-10-12)
+# Python 3.12 (64-bit, Windows). Install: python -m pip install -r requirements.txt
+#
+# External programs (not pip packages):
+#   ffmpeg / ffprobe   on PATH (measurement, waveform, font checks). Verified: gyan.dev build 2026-03-09 with libass 0.17.4.
+#                      SUBKIT_FFMPEG / SUBKIT_FFPROBE override the paths (src/subkit/proc.py).
+#   libmpv-2.dll       third_party/mpv/dev/ (see third_party/mpv/SOURCE.md; mpv git 3186d369f9, client API 2.5).
+#   assfonts.exe       optional, private feature: font embedding in season import (v0.7.3, with its fonts.json).
+
+# --- required ---
+PySide6==6.11.1
+numpy==2.4.4
+scipy==1.17.1
+fonttools==4.63.0
+SudachiPy==0.6.11
+SudachiDict-core==20260428
+SudachiDict-full==20260428          # the reading engine loads the "full" dictionary
+fugashi==1.5.2
+unidic-lite==1.0.8
+pypinyin==0.55.0
+opencc-python-reimplemented==0.1.7
+pyphen==0.18.1
+
+# --- optional ---
+# semantic matching in merge (合并 → 语义模型; uses a locally cached LaBSE model)
+# sentence-transformers==5.5.0
+# voice reading check (src/subkit/reading/voice.py)
+# torch==2.12.0
+# openai-whisper==20250625
+# Silero VAD evaluation (src/subkit/vad.py, kept but not used by the app)
+# onnxruntime==1.30.0

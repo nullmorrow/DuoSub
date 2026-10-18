@@ -1,0 +1,8 @@
+{
+  "SUBKIT_TRANSLATION_GGUF": "models/translation.gguf",
+  "SUBKIT_LLAMA_CLI": "llama-cli",
+  "SUBKIT_ASR_MODEL_DIR": "models/whisper",
+  "SUBKIT_ASR_PACKAGES": "",
+  "TORCH_HOME": ".local-cache/torch",
+  "SUBKIT_ASSFONTS": "assfonts"
+}

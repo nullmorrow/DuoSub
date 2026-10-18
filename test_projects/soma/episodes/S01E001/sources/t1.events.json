@@ -1,0 +1,9289 @@
+{
+ "format": "subkit-source-events",
+ "format_version": 1,
+ "source": "t1",
+ "sha256": "e15a3e4c5210db8dcd73dfe8a975677324e45c0a139e03417bf11572a1a9cfdc",
+ "playres": [
+  1280,
+  720
+ ],
+ "events": [
+  {
+   "i": 0,
+   "kind": "Comment",
+   "start": 0,
+   "end": 0,
+   "text": "//------------------STAFF-------------------",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 30,
+   "cue": null
+  },
+  {
+   "i": 1,
+   "kind": "Dialogue",
+   "start": 0,
+   "end": 890,
+   "text": "{\\blur0.5\\fad(300,0)\\an2\\pos(640,663)}本字幕由澄空学园&华盟字幕社制作",
+   "style": "staff",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 31,
+   "cue": null
+  },
+  {
+   "i": 2,
+   "kind": "Dialogue",
+   "start": 0,
+   "end": 890,
+   "text": "{\\an2\\1cC0C0C0\\bord0\\blur0.5\\fad(300,0)\\fs30\\q2}片源: 10thMystery   翻译: 気合豆 / 熊猫   校对: 奇迹时代   后期: FluffyBery",
+   "style": "staff",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 32,
+   "cue": null
+  },
+  {
+   "i": 3,
+   "kind": "Comment",
+   "start": 0,
+   "end": 0,
+   "text": "//------------------PREV-------------------",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 33,
+   "cue": null
+  },
+  {
+   "i": 4,
+   "kind": "Dialogue",
+   "start": 3150,
+   "end": 3900,
+   "text": "超",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 34,
+   "cue": null
+  },
+  {
+   "i": 5,
+   "kind": "Dialogue",
+   "start": 4150,
+   "end": 4810,
+   "text": "难",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 35,
+   "cue": null
+  },
+  {
+   "i": 6,
+   "kind": "Dialogue",
+   "start": 5070,
+   "end": 5730,
+   "text": "吃",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 36,
+   "cue": null
+  },
+  {
+   "i": 7,
+   "kind": "Dialogue",
+   "start": 5980,
+   "end": 7570,
+   "text": "超难吃",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 37,
+   "cue": null
+  },
+  {
+   "i": 8,
+   "kind": "Dialogue",
+   "start": 8780,
+   "end": 9400,
+   "text": "难吃！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 38,
+   "cue": null
+  },
+  {
+   "i": 9,
+   "kind": "Dialogue",
+   "start": 10750,
+   "end": 14180,
+   "text": "不搭味  已经到破坏性的程度了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 39,
+   "cue": null
+  },
+  {
+   "i": 10,
+   "kind": "Dialogue",
+   "start": 14920,
+   "end": 15990,
+   "text": "不搭味…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 40,
+   "cue": null
+  },
+  {
+   "i": 11,
+   "kind": "Dialogue",
+   "start": 17130,
+   "end": 19190,
+   "text": "鱿鱼须和花生酱",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 41,
+   "cue": null
+  },
+  {
+   "i": 12,
+   "kind": "Dialogue",
+   "start": 20070,
+   "end": 23240,
+   "text": "太搞笑了  难吃得让人发笑",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 42,
+   "cue": null
+  },
+  {
+   "i": 13,
+   "kind": "Dialogue",
+   "start": 26000,
+   "end": 26600,
+   "text": "创真",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 43,
+   "cue": null
+  },
+  {
+   "i": 14,
+   "kind": "Dialogue",
+   "start": 27820,
+   "end": 28940,
+   "text": "你朋友来了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 44,
+   "cue": null
+  },
+  {
+   "i": 15,
+   "kind": "Dialogue",
+   "start": 29360,
+   "end": 29890,
+   "text": "来啦",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 45,
+   "cue": null
+  },
+  {
+   "i": 16,
+   "kind": "Dialogue",
+   "start": 32460,
+   "end": 33800,
+   "text": "那就开工吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 46,
+   "cue": null
+  },
+  {
+   "i": 17,
+   "kind": "Dialogue",
+   "start": 49470,
+   "end": 50400,
+   "text": "敬请品尝",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 47,
+   "cue": null
+  },
+  {
+   "i": 18,
+   "kind": "Dialogue",
+   "start": 51340,
+   "end": 52400,
+   "text": "闻起来好香",
+   "style": "8para",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 48,
+   "cue": null
+  },
+  {
+   "i": 19,
+   "kind": "Dialogue",
+   "start": 51970,
+   "end": 52680,
+   "text": "请用",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 49,
+   "cue": null
+  },
+  {
+   "i": 20,
+   "kind": "Dialogue",
+   "start": 53930,
+   "end": 54780,
+   "text": "我开动了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 50,
+   "cue": null
+  },
+  {
+   "i": 21,
+   "kind": "Dialogue",
+   "start": 56050,
+   "end": 57940,
+   "text": "料理比赛在进行呢",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 51,
+   "cue": null
+  },
+  {
+   "i": 22,
+   "kind": "Dialogue",
+   "start": 58920,
+   "end": 60940,
+   "text": "今天的评委是仓濑啊",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 52,
+   "cue": null
+  },
+  {
+   "i": 23,
+   "kind": "Dialogue",
+   "start": 74520,
+   "end": 75570,
+   "text": "难道说…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 53,
+   "cue": null
+  },
+  {
+   "i": 24,
+   "kind": "Dialogue",
+   "start": 75830,
+   "end": 76800,
+   "text": "今天终于…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 54,
+   "cue": null
+  },
+  {
+   "i": 25,
+   "kind": "Dialogue",
+   "start": 76840,
+   "end": 78940,
+   "text": "小声点  真由正在思考呢",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 55,
+   "cue": null
+  },
+  {
+   "i": 26,
+   "kind": "Dialogue",
+   "start": 83360,
+   "end": 83980,
+   "text": "这边！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 56,
+   "cue": null
+  },
+  {
+   "i": 27,
+   "kind": "Dialogue",
+   "start": 86230,
+   "end": 87260,
+   "text": "结果出来啦",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 57,
+   "cue": null
+  },
+  {
+   "i": 28,
+   "kind": "Dialogue",
+   "start": 87610,
+   "end": 89620,
+   "text": "今天依旧是老爹的胜利！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 58,
+   "cue": null
+  },
+  {
+   "i": 29,
+   "kind": "Dialogue",
+   "start": 92030,
+   "end": 94990,
+   "text": "{\\fad(460,0)\\fn方正黑体_GBK\\1c313131\\fscx82\\fs26\\pos(332.4,367)}初中3年级",
+   "style": "0wrt",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 59,
+   "cue": null
+  },
+  {
+   "i": 30,
+   "kind": "Dialogue",
+   "start": 95030,
+   "end": 97950,
+   "text": "{\\fad(460,0)\\fn方正黑体_GBK\\1c313131\\fscx82\\pos(988,415)\\fs26}幸平餐馆店主",
+   "style": "0wrt",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 60,
+   "cue": null
+  },
+  {
+   "i": 31,
+   "kind": "Dialogue",
+   "start": 94400,
+   "end": 97790,
+   "text": "幸平  你的修行还差得远嘛",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 61,
+   "cue": null
+  },
+  {
+   "i": 32,
+   "kind": "Dialogue",
+   "start": 98660,
+   "end": 101300,
+   "text": "看起来今天是我输了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 62,
+   "cue": null
+  },
+  {
+   "i": 33,
+   "kind": "Dialogue",
+   "start": 101580,
+   "end": 103710,
+   "text": "等你赢过一次再这么说",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 63,
+   "cue": null
+  },
+  {
+   "i": 34,
+   "kind": "Dialogue",
+   "start": 104260,
+   "end": 106860,
+   "text": "你输了差不多该有500次了吧？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 64,
+   "cue": null
+  },
+  {
+   "i": 35,
+   "kind": "Dialogue",
+   "start": 107050,
+   "end": 110850,
+   "text": "啥？别得意了  这才第489次呢",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 65,
+   "cue": null
+  },
+  {
+   "i": 36,
+   "kind": "Dialogue",
+   "start": 111160,
+   "end": 113040,
+   "text": "这不马上就到了吗",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 66,
+   "cue": null
+  },
+  {
+   "i": 37,
+   "kind": "Dialogue",
+   "start": 113090,
+   "end": 114120,
+   "text": "烦死啦  老爹",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 67,
+   "cue": null
+  },
+  {
+   "i": 38,
+   "kind": "Dialogue",
+   "start": 120160,
+   "end": 122600,
+   "text": "老爹的炒饭好吃真不是盖的！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 68,
+   "cue": null
+  },
+  {
+   "i": 39,
+   "kind": "Dialogue",
+   "start": 122850,
+   "end": 126720,
+   "text": "能在家边吃到这等味道  好幸福啊！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 69,
+   "cue": null
+  },
+  {
+   "i": 40,
+   "kind": "Dialogue",
+   "start": 126830,
+   "end": 128280,
+   "text": "受不了啦！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 70,
+   "cue": null
+  },
+  {
+   "i": 41,
+   "kind": "Dialogue",
+   "start": 128580,
+   "end": 131890,
+   "text": "但…但是  幸平的炒饭也很好吃的",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 71,
+   "cue": null
+  },
+  {
+   "i": 42,
+   "kind": "Dialogue",
+   "start": 132330,
+   "end": 134860,
+   "text": "我从来没吃过这么美味的炒饭",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 72,
+   "cue": null
+  },
+  {
+   "i": 43,
+   "kind": "Dialogue",
+   "start": 135840,
+   "end": 136700,
+   "text": "谢谢…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 73,
+   "cue": null
+  },
+  {
+   "i": 44,
+   "kind": "Dialogue",
+   "start": 138420,
+   "end": 141240,
+   "text": "我这边有份刚出炉的新作",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 74,
+   "cue": null
+  },
+  {
+   "i": 45,
+   "kind": "Dialogue",
+   "start": 142380,
+   "end": 143810,
+   "text": "可以的话  尝一点如何？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 75,
+   "cue": null
+  },
+  {
+   "i": 46,
+   "kind": "Dialogue",
+   "start": 144150,
+   "end": 146410,
+   "text": "可以吗？好想尝尝看",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 76,
+   "cue": null
+  },
+  {
+   "i": 47,
+   "kind": "Dialogue",
+   "start": 146680,
+   "end": 149300,
+   "text": "烤鱿鱼须拌花生酱",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 77,
+   "cue": null
+  },
+  {
+   "i": 48,
+   "kind": "Dialogue",
+   "start": 149590,
+   "end": 150060,
+   "text": "啥？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 78,
+   "cue": null
+  },
+  {
+   "i": 49,
+   "kind": "Dialogue",
+   "start": 150210,
+   "end": 150970,
+   "text": "真由",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 79,
+   "cue": null
+  },
+  {
+   "i": 50,
+   "kind": "Dialogue",
+   "start": 151690,
+   "end": 152690,
+   "text": "这次又来{MUST SPLT}",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 80,
+   "cue": null
+  },
+  {
+   "i": 51,
+   "kind": "Dialogue",
+   "start": 152750,
+   "end": 154260,
+   "text": "好像比以往的还劲爆",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 81,
+   "cue": null
+  },
+  {
+   "i": 52,
+   "kind": "Dialogue",
+   "start": 154580,
+   "end": 156210,
+   "text": "来吧  不用客气",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 82,
+   "cue": null
+  },
+  {
+   "i": 53,
+   "kind": "Dialogue",
+   "start": 156590,
+   "end": 158570,
+   "text": "可是难吃得叫人发笑哦",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 83,
+   "cue": null
+  },
+  {
+   "i": 54,
+   "kind": "Dialogue",
+   "start": 158880,
+   "end": 160600,
+   "text": "不…不要…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 84,
+   "cue": null
+  },
+  {
+   "i": 55,
+   "kind": "Dialogue",
+   "start": 167840,
+   "end": 170000,
+   "text": "讨厌",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 85,
+   "cue": null
+  },
+  {
+   "i": 56,
+   "kind": "Dialogue",
+   "start": 173140,
+   "end": 176180,
+   "text": "「鱿鱼须的味道变得异常奇怪」",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 86,
+   "cue": null
+  },
+  {
+   "i": 57,
+   "kind": "Dialogue",
+   "start": 176920,
+   "end": 179780,
+   "text": "「难吃得好似浑身上下被肆意玩弄」",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 87,
+   "cue": null
+  },
+  {
+   "i": 58,
+   "kind": "Dialogue",
+   "start": 180600,
+   "end": 183560,
+   "text": "这位女生事后这么回忆到",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 88,
+   "cue": null
+  },
+  {
+   "i": 59,
+   "kind": "Dialogue",
+   "start": 185960,
+   "end": 189170,
+   "text": "所谓料理  其本身即是一望无际的荒野",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 89,
+   "cue": null
+  },
+  {
+   "i": 60,
+   "kind": "Dialogue",
+   "start": 190230,
+   "end": 192120,
+   "text": "是既有着无数令人垂涎欲滴",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 90,
+   "cue": null
+  },
+  {
+   "i": 61,
+   "kind": "Dialogue",
+   "start": 192570,
+   "end": 195320,
+   "text": "又存在难以下咽料理的荒野",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 91,
+   "cue": null
+  },
+  {
+   "i": 62,
+   "kind": "Dialogue",
+   "start": 196200,
+   "end": 200460,
+   "text": "我想走到地平线的那一端去看看啊",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 92,
+   "cue": null
+  },
+  {
+   "i": 63,
+   "kind": "Dialogue",
+   "start": 200610,
+   "end": 202900,
+   "text": "笨蛋吵死了  你一个人去吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 93,
+   "cue": null
+  },
+  {
+   "i": 64,
+   "kind": "Dialogue",
+   "start": 203330,
+   "end": 205340,
+   "text": "真由振作点啊  没事吧？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 94,
+   "cue": null
+  },
+  {
+   "i": 65,
+   "kind": "Dialogue",
+   "start": 206370,
+   "end": 209020,
+   "text": "鱿鱼它…鱿鱼它…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 95,
+   "cue": null
+  },
+  {
+   "i": 66,
+   "kind": "Dialogue",
+   "start": 209730,
+   "end": 212920,
+   "text": "幸平他就连失败作也会开心地叫人去吃啊",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 96,
+   "cue": null
+  },
+  {
+   "i": 67,
+   "kind": "Dialogue",
+   "start": 213180,
+   "end": 216160,
+   "text": "要是没这怪癖  确实是个称职的厨师了呢",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 97,
+   "cue": null
+  },
+  {
+   "i": 68,
+   "kind": "Dialogue",
+   "start": 217270,
+   "end": 218630,
+   "text": "比起你这个",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 98,
+   "cue": null
+  },
+  {
+   "i": 69,
+   "kind": "Dialogue",
+   "start": 218930,
+   "end": 222640,
+   "text": "我做的「草莓酱拌鱼干」要更恐怖啊  创真",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 99,
+   "cue": null
+  },
+  {
+   "i": 70,
+   "kind": "Dialogue",
+   "start": 222840,
+   "end": 224170,
+   "text": "啊  那个啊",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 100,
+   "cue": null
+  },
+  {
+   "i": 71,
+   "kind": "Dialogue",
+   "start": 224860,
+   "end": 227650,
+   "text": "真的是难吃到极点了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 101,
+   "cue": null
+  },
+  {
+   "i": 72,
+   "kind": "Dialogue",
+   "start": 227880,
+   "end": 228570,
+   "text": "是吧？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 102,
+   "cue": null
+  },
+  {
+   "i": 73,
+   "kind": "Dialogue",
+   "start": 229010,
+   "end": 231110,
+   "text": "但还是比不上花生鱿鱼",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 103,
+   "cue": null
+  },
+  {
+   "i": 74,
+   "kind": "Dialogue",
+   "start": 231510,
+   "end": 233740,
+   "text": "不对  鱼干草莓酱更难吃",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 104,
+   "cue": null
+  },
+  {
+   "i": 75,
+   "kind": "Dialogue",
+   "start": 233810,
+   "end": 235040,
+   "text": "花生鱿鱼更难吃",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 105,
+   "cue": null
+  },
+  {
+   "i": 76,
+   "kind": "Dialogue",
+   "start": 235940,
+   "end": 238190,
+   "text": "真是有其父必有其子",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 106,
+   "cue": null
+  },
+  {
+   "i": 77,
+   "kind": "Dialogue",
+   "start": 238230,
+   "end": 239680,
+   "text": "我做的更难吃！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 107,
+   "cue": null
+  },
+  {
+   "i": 78,
+   "kind": "Comment",
+   "start": 45500,
+   "end": 45500,
+   "text": "//------------------TXTA-------------------",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 108,
+   "cue": null
+  },
+  {
+   "i": 79,
+   "kind": "Dialogue",
+   "start": 337400,
+   "end": 341820,
+   "text": "{\\fad(580,420)\\1c080000\\3cC0C0C0\\blur1\\bord1\\b1\\move(95,440,95,472)}无\\N垠\\N的\\N荒\\N野",
+   "style": "0wrt",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 109,
+   "cue": null
+  },
+  {
+   "i": 80,
+   "kind": "Dialogue",
+   "start": 336940,
+   "end": 337980,
+   "text": "给我来份每日套餐",
+   "style": "8para",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 110,
+   "cue": null
+  },
+  {
+   "i": 81,
+   "kind": "Dialogue",
+   "start": 339670,
+   "end": 340420,
+   "text": "啊  来了来了",
+   "style": "8para",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 111,
+   "cue": null
+  },
+  {
+   "i": 82,
+   "kind": "Dialogue",
+   "start": 342590,
+   "end": 343820,
+   "text": "韭菜猪肝套餐  让您久等了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 112,
+   "cue": null
+  },
+  {
+   "i": 83,
+   "kind": "Dialogue",
+   "start": 344930,
+   "end": 346660,
+   "text": "我要一份肉豆腐套餐吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 113,
+   "cue": null
+  },
+  {
+   "i": 84,
+   "kind": "Dialogue",
+   "start": 347220,
+   "end": 348700,
+   "text": "我来个每日套餐",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 114,
+   "cue": null
+  },
+  {
+   "i": 85,
+   "kind": "Dialogue",
+   "start": 349290,
+   "end": 351550,
+   "text": "明白  一份肉豆腐套餐",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 115,
+   "cue": null
+  },
+  {
+   "i": 86,
+   "kind": "Dialogue",
+   "start": 351800,
+   "end": 352560,
+   "text": "每日一份",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 116,
+   "cue": null
+  },
+  {
+   "i": 87,
+   "kind": "Dialogue",
+   "start": 353120,
+   "end": 353880,
+   "text": "了解",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 117,
+   "cue": null
+  },
+  {
+   "i": 88,
+   "kind": "Dialogue",
+   "start": 354510,
+   "end": 355640,
+   "text": "饱啦",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 118,
+   "cue": null
+  },
+  {
+   "i": 89,
+   "kind": "Dialogue",
+   "start": 355690,
+   "end": 356660,
+   "text": "真好吃啊",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 119,
+   "cue": null
+  },
+  {
+   "i": 90,
+   "kind": "Dialogue",
+   "start": 356720,
+   "end": 357490,
+   "text": "多谢招待",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 120,
+   "cue": null
+  },
+  {
+   "i": 91,
+   "kind": "Dialogue",
+   "start": 357540,
+   "end": 358200,
+   "text": "感谢惠顾",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 121,
+   "cue": null
+  },
+  {
+   "i": 92,
+   "kind": "Dialogue",
+   "start": 358340,
+   "end": 358960,
+   "text": "感谢惠顾",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 122,
+   "cue": null
+  },
+  {
+   "i": 93,
+   "kind": "Dialogue",
+   "start": 365500,
+   "end": 368840,
+   "text": "创真  那边收拾完了就去把炭炉的火灭了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 123,
+   "cue": null
+  },
+  {
+   "i": 94,
+   "kind": "Dialogue",
+   "start": 372280,
+   "end": 376090,
+   "text": "今天的炒饭  应该再多颠三次勺的",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 124,
+   "cue": null
+  },
+  {
+   "i": 95,
+   "kind": "Dialogue",
+   "start": 377720,
+   "end": 379330,
+   "text": "马上就要初中毕业了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 125,
+   "cue": null
+  },
+  {
+   "i": 96,
+   "kind": "Dialogue",
+   "start": 379960,
+   "end": 382110,
+   "text": "之后就能进行更多的料理修行了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 126,
+   "cue": null
+  },
+  {
+   "i": 97,
+   "kind": "Dialogue",
+   "start": 383950,
+   "end": 386460,
+   "text": "要尽早超越老爹",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 127,
+   "cue": null
+  },
+  {
+   "i": 98,
+   "kind": "Dialogue",
+   "start": 387200,
+   "end": 389540,
+   "text": "然后成为能够背负起这家店的厨师",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 128,
+   "cue": null
+  },
+  {
+   "i": 99,
+   "kind": "Dialogue",
+   "start": 393320,
+   "end": 394530,
+   "text": "啊  欢迎光…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 129,
+   "cue": null
+  },
+  {
+   "i": 100,
+   "kind": "Dialogue",
+   "start": 396100,
+   "end": 397820,
+   "text": "不好意思",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 130,
+   "cue": null
+  },
+  {
+   "i": 101,
+   "kind": "Dialogue",
+   "start": 398920,
+   "end": 400800,
+   "text": "看起来好像还在营业中",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 131,
+   "cue": null
+  },
+  {
+   "i": 102,
+   "kind": "Dialogue",
+   "start": 401360,
+   "end": 404010,
+   "text": "前来打扰万分抱歉",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 132,
+   "cue": null
+  },
+  {
+   "i": 103,
+   "kind": "Dialogue",
+   "start": 405850,
+   "end": 409160,
+   "text": "我是「URBANLIFE」的峰崎",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 133,
+   "cue": null
+  },
+  {
+   "i": 104,
+   "kind": "Dialogue",
+   "start": 410690,
+   "end": 411580,
+   "text": "您要来点什么？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 134,
+   "cue": null
+  },
+  {
+   "i": 105,
+   "kind": "Dialogue",
+   "start": 411920,
+   "end": 412390,
+   "text": "什么？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 135,
+   "cue": null
+  },
+  {
+   "i": 106,
+   "kind": "Dialogue",
+   "start": 412580,
+   "end": 415360,
+   "text": "今天的推荐菜单是金眼鲷刺身和…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 136,
+   "cue": null
+  },
+  {
+   "i": 107,
+   "kind": "Dialogue",
+   "start": 415460,
+   "end": 417300,
+   "text": "不不  今天所来",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 137,
+   "cue": null
+  },
+  {
+   "i": 108,
+   "kind": "Dialogue",
+   "start": 417830,
+   "end": 422580,
+   "text": "是为再次说明前日谈过的计划",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 138,
+   "cue": null
+  },
+  {
+   "i": 109,
+   "kind": "Dialogue",
+   "start": 423520,
+   "end": 429740,
+   "text": "为了在这座城市里以建造花园式高级住宅为理念的都市公寓",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 139,
+   "cue": null
+  },
+  {
+   "i": 110,
+   "kind": "Dialogue",
+   "start": 430030,
+   "end": 434720,
+   "text": "说白了就是你们这群开发商想叫我们滚蛋吧？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 140,
+   "cue": null
+  },
+  {
+   "i": 111,
+   "kind": "Dialogue",
+   "start": 435040,
+   "end": 436050,
+   "text": "之前已经听过了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 141,
+   "cue": null
+  },
+  {
+   "i": 112,
+   "kind": "Dialogue",
+   "start": 436720,
+   "end": 437290,
+   "text": "请回吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 142,
+   "cue": null
+  },
+  {
+   "i": 113,
+   "kind": "Dialogue",
+   "start": 437680,
+   "end": 439800,
+   "text": "我们完全没有闭店的打算",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 143,
+   "cue": null
+  },
+  {
+   "i": 114,
+   "kind": "Dialogue",
+   "start": 441620,
+   "end": 445100,
+   "text": "那我将名片留下",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 144,
+   "cue": null
+  },
+  {
+   "i": 115,
+   "kind": "Dialogue",
+   "start": 445580,
+   "end": 447370,
+   "text": "随时都可联络我",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 145,
+   "cue": null
+  },
+  {
+   "i": 116,
+   "kind": "Dialogue",
+   "start": 448360,
+   "end": 450690,
+   "text": "说回来店主哟  现在这个世道",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 146,
+   "cue": null
+  },
+  {
+   "i": 117,
+   "kind": "Dialogue",
+   "start": 450970,
+   "end": 453980,
+   "text": "经营小店也是越来越难了吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 147,
+   "cue": null
+  },
+  {
+   "i": 118,
+   "kind": "Dialogue",
+   "start": 454760,
+   "end": 458080,
+   "text": "听闻很多店连进货都头疼不已",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 148,
+   "cue": null
+  },
+  {
+   "i": 119,
+   "kind": "Dialogue",
+   "start": 458940,
+   "end": 460670,
+   "text": "我这完全没有这问题",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 149,
+   "cue": null
+  },
+  {
+   "i": 120,
+   "kind": "Dialogue",
+   "start": 461060,
+   "end": 462290,
+   "text": "是这样吗？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 150,
+   "cue": null
+  },
+  {
+   "i": 121,
+   "kind": "Dialogue",
+   "start": 462650,
+   "end": 467200,
+   "text": "「幸平」会负责提供客人们想吃的食物",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 151,
+   "cue": null
+  },
+  {
+   "i": 122,
+   "kind": "Dialogue",
+   "start": 467520,
+   "end": 471110,
+   "text": "真是出色  真是服务业的楷模",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 152,
+   "cue": null
+  },
+  {
+   "i": 123,
+   "kind": "Dialogue",
+   "start": 472870,
+   "end": 476060,
+   "text": "但是  如果你们没能供上客人想要的食物",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 153,
+   "cue": null
+  },
+  {
+   "i": 124,
+   "kind": "Dialogue",
+   "start": 476890,
+   "end": 479250,
+   "text": "你们要怎么负责？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 154,
+   "cue": null
+  },
+  {
+   "i": 125,
+   "kind": "Dialogue",
+   "start": 481340,
+   "end": 484520,
+   "text": "那时候我就打扫干净店铺",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 155,
+   "cue": null
+  },
+  {
+   "i": 126,
+   "kind": "Dialogue",
+   "start": 484820,
+   "end": 486640,
+   "text": "关门还是其他什么都悉听尊便",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 156,
+   "cue": null
+  },
+  {
+   "i": 127,
+   "kind": "Dialogue",
+   "start": 493080,
+   "end": 494330,
+   "text": "君子一言驷马难追哦？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 157,
+   "cue": null
+  },
+  {
+   "i": 128,
+   "kind": "Dialogue",
+   "start": 494770,
+   "end": 495330,
+   "text": "那是当然",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 158,
+   "cue": null
+  },
+  {
+   "i": 129,
+   "kind": "Dialogue",
+   "start": 497500,
+   "end": 499010,
+   "text": "那么  我们还会再来的",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 159,
+   "cue": null
+  },
+  {
+   "i": 130,
+   "kind": "Dialogue",
+   "start": 504860,
+   "end": 507000,
+   "text": "老爹  盐！快撒盐！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 160,
+   "cue": null
+  },
+  {
+   "i": 131,
+   "kind": "Dialogue",
+   "start": 507170,
+   "end": 508680,
+   "text": "太浪费了驳回",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 161,
+   "cue": null
+  },
+  {
+   "i": 132,
+   "kind": "Dialogue",
+   "start": 512970,
+   "end": 514250,
+   "text": "待会做点什么？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 162,
+   "cue": null
+  },
+  {
+   "i": 133,
+   "kind": "Dialogue",
+   "start": 514730,
+   "end": 515380,
+   "text": "去卡拉OK吗？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 163,
+   "cue": null
+  },
+  {
+   "i": 134,
+   "kind": "Dialogue",
+   "start": 515630,
+   "end": 517360,
+   "text": "那去唱什么？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 164,
+   "cue": null
+  },
+  {
+   "i": 135,
+   "kind": "Dialogue",
+   "start": 517760,
+   "end": 518380,
+   "text": "动画歌曲吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 165,
+   "cue": null
+  },
+  {
+   "i": 136,
+   "kind": "Dialogue",
+   "start": 518460,
+   "end": 519960,
+   "text": "你每次都…",
+   "style": "8para",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 166,
+   "cue": null
+  },
+  {
+   "i": 137,
+   "kind": "Dialogue",
+   "start": 520000,
+   "end": 521780,
+   "text": "别小看动画歌曲啊",
+   "style": "8para",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 167,
+   "cue": null
+  },
+  {
+   "i": 138,
+   "kind": "Dialogue",
+   "start": 519180,
+   "end": 519880,
+   "text": "真由？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 168,
+   "cue": null
+  },
+  {
+   "i": 139,
+   "kind": "Dialogue",
+   "start": 533660,
+   "end": 534830,
+   "text": "老爹？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 169,
+   "cue": null
+  },
+  {
+   "i": 140,
+   "kind": "Dialogue",
+   "start": 535410,
+   "end": 536770,
+   "text": "已经回家了吗",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 170,
+   "cue": null
+  },
+  {
+   "i": 141,
+   "kind": "Dialogue",
+   "start": 537100,
+   "end": 539930,
+   "text": "刚去买早饭材料了  怎么了？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 171,
+   "cue": null
+  },
+  {
+   "i": 142,
+   "kind": "Dialogue",
+   "start": 540880,
+   "end": 542500,
+   "text": "我今天有事出下门",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 172,
+   "cue": null
+  },
+  {
+   "i": 143,
+   "kind": "Dialogue",
+   "start": 543130,
+   "end": 545220,
+   "text": "是吗  真少见啊",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 173,
+   "cue": null
+  },
+  {
+   "i": 144,
+   "kind": "Dialogue",
+   "start": 545750,
+   "end": 547080,
+   "text": "明天才会回来",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 174,
+   "cue": null
+  },
+  {
+   "i": 145,
+   "kind": "Dialogue",
+   "start": 547470,
+   "end": 548630,
+   "text": "不用开店也行的",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 175,
+   "cue": null
+  },
+  {
+   "i": 146,
+   "kind": "Dialogue",
+   "start": 549310,
+   "end": 549850,
+   "text": "知道了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 176,
+   "cue": null
+  },
+  {
+   "i": 147,
+   "kind": "Dialogue",
+   "start": 551570,
+   "end": 552150,
+   "text": "我说你啊…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 177,
+   "cue": null
+  },
+  {
+   "i": 148,
+   "kind": "Dialogue",
+   "start": 553580,
+   "end": 555250,
+   "text": "初中毕业之后打算干什么？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 178,
+   "cue": null
+  },
+  {
+   "i": 149,
+   "kind": "Dialogue",
+   "start": 557840,
+   "end": 558810,
+   "text": "还用问吗？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 179,
+   "cue": null
+  },
+  {
+   "i": 150,
+   "kind": "Dialogue",
+   "start": 559260,
+   "end": 560640,
+   "text": "在店里磨练厨艺…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 180,
+   "cue": null
+  },
+  {
+   "i": 151,
+   "kind": "Dialogue",
+   "start": 561430,
+   "end": 561940,
+   "text": "是吗",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 181,
+   "cue": null
+  },
+  {
+   "i": 152,
+   "kind": "Dialogue",
+   "start": 564620,
+   "end": 565770,
+   "text": "怎么回事啊？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 182,
+   "cue": null
+  },
+  {
+   "i": 153,
+   "kind": "Dialogue",
+   "start": 567160,
+   "end": 571970,
+   "text": "说起来能让老爹休店的事情…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 183,
+   "cue": null
+  },
+  {
+   "i": 154,
+   "kind": "Dialogue",
+   "start": 574390,
+   "end": 576570,
+   "text": "老爹不怎么谈自己的事",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 184,
+   "cue": null
+  },
+  {
+   "i": 155,
+   "kind": "Dialogue",
+   "start": 577890,
+   "end": 579130,
+   "text": "回头想一想",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 185,
+   "cue": null
+  },
+  {
+   "i": 156,
+   "kind": "Dialogue",
+   "start": 579590,
+   "end": 581380,
+   "text": "我对于作为厨师的老爹",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 186,
+   "cue": null
+  },
+  {
+   "i": 157,
+   "kind": "Dialogue",
+   "start": 582270,
+   "end": 585010,
+   "text": "可能毫不了解",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 187,
+   "cue": null
+  },
+  {
+   "i": 158,
+   "kind": "Dialogue",
+   "start": 593870,
+   "end": 596280,
+   "text": "肉…全都不能用了!?",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 188,
+   "cue": null
+  },
+  {
+   "i": 159,
+   "kind": "Dialogue",
+   "start": 597570,
+   "end": 599420,
+   "text": "冰箱里全都被…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 189,
+   "cue": null
+  },
+  {
+   "i": 160,
+   "kind": "Dialogue",
+   "start": 600230,
+   "end": 600900,
+   "text": "是小偷？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 190,
+   "cue": null
+  },
+  {
+   "i": 161,
+   "kind": "Dialogue",
+   "start": 601410,
+   "end": 603170,
+   "text": "不可能  怎么会有这样的小偷",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 191,
+   "cue": null
+  },
+  {
+   "i": 162,
+   "kind": "Dialogue",
+   "start": 614890,
+   "end": 616130,
+   "text": "奇怪",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 192,
+   "cue": null
+  },
+  {
+   "i": 163,
+   "kind": "Dialogue",
+   "start": 616910,
+   "end": 620130,
+   "text": "这里看上去比昨天要整洁不少呢",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 193,
+   "cue": null
+  },
+  {
+   "i": 164,
+   "kind": "Dialogue",
+   "start": 620680,
+   "end": 623340,
+   "text": "是不是因为碍眼的招牌看不见了呢？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 194,
+   "cue": null
+  },
+  {
+   "i": 165,
+   "kind": "Dialogue",
+   "start": 626260,
+   "end": 628760,
+   "text": "现在好想吃肉啊",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 195,
+   "cue": null
+  },
+  {
+   "i": 166,
+   "kind": "Dialogue",
+   "start": 629390,
+   "end": 634720,
+   "text": "我在六本木经常吃的霜降牛排最棒了呢",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 196,
+   "cue": null
+  },
+  {
+   "i": 167,
+   "kind": "Dialogue",
+   "start": 636180,
+   "end": 640020,
+   "text": "醇厚的肉汁在口中蔓延开来",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 197,
+   "cue": null
+  },
+  {
+   "i": 168,
+   "kind": "Dialogue",
+   "start": 642410,
+   "end": 645410,
+   "text": "我说啊  你能不能给我做一份",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 198,
+   "cue": null
+  },
+  {
+   "i": 169,
+   "kind": "Dialogue",
+   "start": 645990,
+   "end": 649290,
+   "text": "美味多汁的肉类料理",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 199,
+   "cue": null
+  },
+  {
+   "i": 170,
+   "kind": "Dialogue",
+   "start": 650910,
+   "end": 653400,
+   "text": "咦？难道做不出来吗？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 200,
+   "cue": null
+  },
+  {
+   "i": 171,
+   "kind": "Dialogue",
+   "start": 653990,
+   "end": 656320,
+   "text": "客人可是想吃肉哦？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 201,
+   "cue": null
+  },
+  {
+   "i": 172,
+   "kind": "Dialogue",
+   "start": 657440,
+   "end": 658810,
+   "text": "拿不出来吗？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 202,
+   "cue": null
+  },
+  {
+   "i": 173,
+   "kind": "Dialogue",
+   "start": 659230,
+   "end": 662360,
+   "text": "你昨天可说过的吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 203,
+   "cue": null
+  },
+  {
+   "i": 174,
+   "kind": "Dialogue",
+   "start": 663300,
+   "end": 666300,
+   "text": "端不上菜就关门大吉",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 204,
+   "cue": null
+  },
+  {
+   "i": 175,
+   "kind": "Dialogue",
+   "start": 667100,
+   "end": 670370,
+   "text": "招牌现在也清干净了 不是正好吗",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 205,
+   "cue": null
+  },
+  {
+   "i": 176,
+   "kind": "Dialogue",
+   "start": 671380,
+   "end": 674060,
+   "text": "这个店就干脆关掉吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 206,
+   "cue": null
+  },
+  {
+   "i": 177,
+   "kind": "Dialogue",
+   "start": 679740,
+   "end": 682010,
+   "text": "多汁的肉类料理…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 207,
+   "cue": null
+  },
+  {
+   "i": 178,
+   "kind": "Dialogue",
+   "start": 683960,
+   "end": 685280,
+   "text": "就点这么多对吧？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 208,
+   "cue": null
+  },
+  {
+   "i": 179,
+   "kind": "Dialogue",
+   "start": 688920,
+   "end": 691250,
+   "text": "如果我能端上来满足你舌头的料理",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 209,
+   "cue": null
+  },
+  {
+   "i": 180,
+   "kind": "Dialogue",
+   "start": 692520,
+   "end": 695290,
+   "text": "就给我发誓再也不会踏入这家店半步",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 210,
+   "cue": null
+  },
+  {
+   "i": 181,
+   "kind": "Dialogue",
+   "start": 706520,
+   "end": 707360,
+   "text": "一决胜负",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 211,
+   "cue": null
+  },
+  {
+   "i": 182,
+   "kind": "Comment",
+   "start": 604870,
+   "end": 605420,
+   "text": "//------------------TXTB-------------------",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 212,
+   "cue": null
+  },
+  {
+   "i": 183,
+   "kind": "Dialogue",
+   "start": 748920,
+   "end": 749660,
+   "text": "我说你{MUST SPLT}",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 213,
+   "cue": null
+  },
+  {
+   "i": 184,
+   "kind": "Dialogue",
+   "start": 750330,
+   "end": 752130,
+   "text": "应该有把冰箱里的东西全部都…{MUST SPLT}",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 214,
+   "cue": null
+  },
+  {
+   "i": 185,
+   "kind": "Dialogue",
+   "start": 752320,
+   "end": 755600,
+   "text": "是的  肉类  全部被我们剁碎了的",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 215,
+   "cue": null
+  },
+  {
+   "i": 186,
+   "kind": "Dialogue",
+   "start": 756560,
+   "end": 758910,
+   "text": "我点的可是多汁肉类料理啊？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 216,
+   "cue": null
+  },
+  {
+   "i": 187,
+   "kind": "Dialogue",
+   "start": 759740,
+   "end": 762440,
+   "text": "他连像样的食材都没有  到底要怎么做？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 217,
+   "cue": null
+  },
+  {
+   "i": 188,
+   "kind": "Dialogue",
+   "start": 789540,
+   "end": 790160,
+   "text": "为什么？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 218,
+   "cue": null
+  },
+  {
+   "i": 189,
+   "kind": "Dialogue",
+   "start": 790370,
+   "end": 791150,
+   "text": "怎么回事？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 219,
+   "cue": null
+  },
+  {
+   "i": 190,
+   "kind": "Dialogue",
+   "start": 791330,
+   "end": 792640,
+   "text": "这么丰盛的…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 220,
+   "cue": null
+  },
+  {
+   "i": 191,
+   "kind": "Dialogue",
+   "start": 793560,
+   "end": 794720,
+   "text": "脆皮烤肉！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 221,
+   "cue": null
+  },
+  {
+   "i": 192,
+   "kind": "Dialogue",
+   "start": 795930,
+   "end": 796990,
+   "text": "我来回答你  这是将土豆",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 222,
+   "cue": null
+  },
+  {
+   "i": 193,
+   "kind": "Dialogue",
+   "start": 797740,
+   "end": 802270,
+   "text": "用明天早饭时吃的厚切培根卷起来的",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 223,
+   "cue": null
+  },
+  {
+   "i": 194,
+   "kind": "Dialogue",
+   "start": 803140,
+   "end": 804860,
+   "text": "「冒牌脆皮烤肉」",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 224,
+   "cue": null
+  },
+  {
+   "i": 195,
+   "kind": "Dialogue",
+   "start": 805410,
+   "end": 805950,
+   "text": "什！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 225,
+   "cue": null
+  },
+  {
+   "i": 196,
+   "kind": "Dialogue",
+   "start": 806330,
+   "end": 807120,
+   "text": "土豆？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 226,
+   "cue": null
+  },
+  {
+   "i": 197,
+   "kind": "Dialogue",
+   "start": 807650,
+   "end": 808500,
+   "text": "冒牌？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 227,
+   "cue": null
+  },
+  {
+   "i": 198,
+   "kind": "Dialogue",
+   "start": 808980,
+   "end": 809870,
+   "text": "烤？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 228,
+   "cue": null
+  },
+  {
+   "i": 199,
+   "kind": "Dialogue",
+   "start": 810220,
+   "end": 813400,
+   "text": "没错  先把土豆蒸熟",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 229,
+   "cue": null
+  },
+  {
+   "i": 200,
+   "kind": "Dialogue",
+   "start": 814670,
+   "end": 817220,
+   "text": "怎么回事？这个氛围",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 230,
+   "cue": null
+  },
+  {
+   "i": 201,
+   "kind": "Dialogue",
+   "start": 818040,
+   "end": 819380,
+   "text": "你在耍我吗",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 231,
+   "cue": null
+  },
+  {
+   "i": 202,
+   "kind": "Dialogue",
+   "start": 820710,
+   "end": 822310,
+   "text": "我说过我要吃肉类料理！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 232,
+   "cue": null
+  },
+  {
+   "i": 203,
+   "kind": "Dialogue",
+   "start": 822930,
+   "end": 825020,
+   "text": "已经没有周旋的余地了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 233,
+   "cue": null
+  },
+  {
+   "i": 204,
+   "kind": "Dialogue",
+   "start": 825700,
+   "end": 827210,
+   "text": "快点把这个店交出来",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 234,
+   "cue": null
+  },
+  {
+   "i": 205,
+   "kind": "Dialogue",
+   "start": 827810,
+   "end": 828410,
+   "text": "听好了？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 235,
+   "cue": null
+  },
+  {
+   "i": 206,
+   "kind": "Dialogue",
+   "start": 828730,
+   "end": 830530,
+   "text": "真正成功的厨师",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 236,
+   "cue": null
+  },
+  {
+   "i": 207,
+   "kind": "Dialogue",
+   "start": 831010,
+   "end": 834260,
+   "text": "都在我去过的那些高级饭店",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 237,
+   "cue": null
+  },
+  {
+   "i": 208,
+   "kind": "Dialogue",
+   "start": 834330,
+   "end": 836040,
+   "text": "或者一流酒店里",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 238,
+   "cue": null
+  },
+  {
+   "i": 209,
+   "kind": "Dialogue",
+   "start": 837040,
+   "end": 838020,
+   "text": "失败作！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 239,
+   "cue": null
+  },
+  {
+   "i": 210,
+   "kind": "Dialogue",
+   "start": 838800,
+   "end": 839770,
+   "text": "要我看来",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 240,
+   "cue": null
+  },
+  {
+   "i": 211,
+   "kind": "Dialogue",
+   "start": 840150,
+   "end": 842280,
+   "text": "这家店根本没有存在的价值了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 241,
+   "cue": null
+  },
+  {
+   "i": 212,
+   "kind": "Dialogue",
+   "start": 844480,
+   "end": 846580,
+   "text": "「幸平」到底有没有存在的价值",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 242,
+   "cue": null
+  },
+  {
+   "i": 213,
+   "kind": "Dialogue",
+   "start": 847400,
+   "end": 848850,
+   "text": "从这盘菜中就能明白",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 243,
+   "cue": null
+  },
+  {
+   "i": 214,
+   "kind": "Dialogue",
+   "start": 856140,
+   "end": 857080,
+   "text": "敬请品尝",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 244,
+   "cue": null
+  },
+  {
+   "i": 215,
+   "kind": "Dialogue",
+   "start": 897290,
+   "end": 898590,
+   "text": "每次咀嚼",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 245,
+   "cue": null
+  },
+  {
+   "i": 216,
+   "kind": "Dialogue",
+   "start": 899150,
+   "end": 902520,
+   "text": "充分烧烤过的培根的醇香肉汁",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 246,
+   "cue": null
+  },
+  {
+   "i": 217,
+   "kind": "Dialogue",
+   "start": 905210,
+   "end": 907450,
+   "text": "就会在嘴里整个蔓延",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 247,
+   "cue": null
+  },
+  {
+   "i": 218,
+   "kind": "Dialogue",
+   "start": 917890,
+   "end": 920140,
+   "text": "好像觉得很好吃嘛",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 248,
+   "cue": null
+  },
+  {
+   "i": 219,
+   "kind": "Dialogue",
+   "start": 921160,
+   "end": 923520,
+   "text": "这可是你瞧不起的店做出的料理哟？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 249,
+   "cue": null
+  },
+  {
+   "i": 220,
+   "kind": "Dialogue",
+   "start": 925690,
+   "end": 926730,
+   "text": "让我来告诉你吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 250,
+   "cue": null
+  },
+  {
+   "i": 221,
+   "kind": "Dialogue",
+   "start": 927440,
+   "end": 928850,
+   "text": "这份味道的秘密",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 251,
+   "cue": null
+  },
+  {
+   "i": 222,
+   "kind": "Dialogue",
+   "start": 932810,
+   "end": 935000,
+   "text": "在蒸熟的土豆中",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 252,
+   "cue": null
+  },
+  {
+   "i": 223,
+   "kind": "Dialogue",
+   "start": 935550,
+   "end": 937970,
+   "text": "放入拥有容易吸收油脂的纤维质的蘑菇",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 253,
+   "cue": null
+  },
+  {
+   "i": 224,
+   "kind": "Dialogue",
+   "start": 939220,
+   "end": 942260,
+   "text": "并且为了增加甜味  跟洋葱一起切碎放入",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 254,
+   "cue": null
+  },
+  {
+   "i": 225,
+   "kind": "Dialogue",
+   "start": 943950,
+   "end": 946510,
+   "text": "然后用厚培根紧紧缠住",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 255,
+   "cue": null
+  },
+  {
+   "i": 226,
+   "kind": "Dialogue",
+   "start": 949110,
+   "end": 951010,
+   "text": "放进烤箱烤熟",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 256,
+   "cue": null
+  },
+  {
+   "i": 227,
+   "kind": "Dialogue",
+   "start": 951930,
+   "end": 954390,
+   "text": "这样一来  培根的外侧开始变得焦脆",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 257,
+   "cue": null
+  },
+  {
+   "i": 228,
+   "kind": "Dialogue",
+   "start": 955820,
+   "end": 959500,
+   "text": "土豆蘑菇也会将猪肉的香味和油脂全部吸收",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 258,
+   "cue": null
+  },
+  {
+   "i": 229,
+   "kind": "Dialogue",
+   "start": 964360,
+   "end": 965040,
+   "text": "然后…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 259,
+   "cue": null
+  },
+  {
+   "i": 230,
+   "kind": "Dialogue",
+   "start": 967730,
+   "end": 972860,
+   "text": "外表焦脆无比  里面鲜嫩多汁  激发出富于刺激的味觉",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 260,
+   "cue": null
+  },
+  {
+   "i": 231,
+   "kind": "Dialogue",
+   "start": 977570,
+   "end": 980680,
+   "text": "以前给客人做土豆沙拉的时候",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 261,
+   "cue": null
+  },
+  {
+   "i": 232,
+   "kind": "Dialogue",
+   "start": 981900,
+   "end": 983110,
+   "text": "装盘不小心装错了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 262,
+   "cue": null
+  },
+  {
+   "i": 233,
+   "kind": "Dialogue",
+   "start": 983480,
+   "end": 986100,
+   "text": "将土豆不小心渗进了别的料理的肉汁",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 263,
+   "cue": null
+  },
+  {
+   "i": 234,
+   "kind": "Dialogue",
+   "start": 988730,
+   "end": 990910,
+   "text": "从那里获得了这道菜的灵感",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 264,
+   "cue": null
+  },
+  {
+   "i": 235,
+   "kind": "Dialogue",
+   "start": 991940,
+   "end": 993360,
+   "text": "从失败作中呢",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 265,
+   "cue": null
+  },
+  {
+   "i": 236,
+   "kind": "Dialogue",
+   "start": 994870,
+   "end": 996460,
+   "text": "所…所以那又怎么样？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 266,
+   "cue": null
+  },
+  {
+   "i": 237,
+   "kind": "Dialogue",
+   "start": 997120,
+   "end": 997900,
+   "text": "这种东西",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 267,
+   "cue": null
+  },
+  {
+   "i": 238,
+   "kind": "Dialogue",
+   "start": 998620,
+   "end": 1000240,
+   "text": "根本不能称作是肉类料理",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 268,
+   "cue": null
+  },
+  {
+   "i": 239,
+   "kind": "Dialogue",
+   "start": 1002340,
+   "end": 1004490,
+   "text": "但是…手根本…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 269,
+   "cue": null
+  },
+  {
+   "i": 240,
+   "kind": "Dialogue",
+   "start": 1006140,
+   "end": 1006900,
+   "text": "停不下来！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 270,
+   "cue": null
+  },
+  {
+   "i": 241,
+   "kind": "Dialogue",
+   "start": 1011820,
+   "end": 1015660,
+   "text": "还想  再多尝一口肉汁的味道",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 271,
+   "cue": null
+  },
+  {
+   "i": 242,
+   "kind": "Dialogue",
+   "start": 1018010,
+   "end": 1019170,
+   "text": "你…你干什么",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 272,
+   "cue": null
+  },
+  {
+   "i": 243,
+   "kind": "Dialogue",
+   "start": 1020040,
+   "end": 1021970,
+   "text": "想继续吃的话就发誓",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 273,
+   "cue": null
+  },
+  {
+   "i": 244,
+   "kind": "Dialogue",
+   "start": 1023010,
+   "end": 1025290,
+   "text": "再也不会找这家店麻烦",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 274,
+   "cue": null
+  },
+  {
+   "i": 245,
+   "kind": "Dialogue",
+   "start": 1026760,
+   "end": 1027730,
+   "text": "谁会发那种誓",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 275,
+   "cue": null
+  },
+  {
+   "i": 246,
+   "kind": "Dialogue",
+   "start": 1028200,
+   "end": 1029700,
+   "text": "是嘛",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 276,
+   "cue": null
+  },
+  {
+   "i": 247,
+   "kind": "Dialogue",
+   "start": 1030380,
+   "end": 1033330,
+   "text": "虽然很浪费  但也无奈",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 277,
+   "cue": null
+  },
+  {
+   "i": 248,
+   "kind": "Dialogue",
+   "start": 1035720,
+   "end": 1038050,
+   "text": "这道料理只能…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 278,
+   "cue": null
+  },
+  {
+   "i": 249,
+   "kind": "Dialogue",
+   "start": 1038090,
+   "end": 1039300,
+   "text": "等…等一下",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 279,
+   "cue": null
+  },
+  {
+   "i": 250,
+   "kind": "Dialogue",
+   "start": 1040240,
+   "end": 1040750,
+   "text": "我发誓",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 280,
+   "cue": null
+  },
+  {
+   "i": 251,
+   "kind": "Dialogue",
+   "start": 1041080,
+   "end": 1042100,
+   "text": "我发誓就是了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 281,
+   "cue": null
+  },
+  {
+   "i": 252,
+   "kind": "Dialogue",
+   "start": 1045310,
+   "end": 1046040,
+   "text": "啊？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 282,
+   "cue": null
+  },
+  {
+   "i": 253,
+   "kind": "Dialogue",
+   "start": 1051080,
+   "end": 1053840,
+   "text": "还想要…那个…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 283,
+   "cue": null
+  },
+  {
+   "i": 254,
+   "kind": "Dialogue",
+   "start": 1055230,
+   "end": 1058060,
+   "text": "请  给  我  吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 284,
+   "cue": null
+  },
+  {
+   "i": 255,
+   "kind": "Dialogue",
+   "start": 1103680,
+   "end": 1109610,
+   "text": "肉~  汁~",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 285,
+   "cue": null
+  },
+  {
+   "i": 256,
+   "kind": "Dialogue",
+   "start": 1123640,
+   "end": 1124440,
+   "text": "招待不周！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 286,
+   "cue": null
+  },
+  {
+   "i": 257,
+   "kind": "Dialogue",
+   "start": 1148410,
+   "end": 1149490,
+   "text": "不管遇到什么麻烦",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 287,
+   "cue": null
+  },
+  {
+   "i": 258,
+   "kind": "Dialogue",
+   "start": 1149640,
+   "end": 1151210,
+   "text": "我都不会让这家店倒闭的",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 288,
+   "cue": null
+  },
+  {
+   "i": 259,
+   "kind": "Dialogue",
+   "start": 1152820,
+   "end": 1156750,
+   "text": "「幸平」是我将料理练到究极的城堡啊",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 289,
+   "cue": null
+  },
+  {
+   "i": 260,
+   "kind": "Dialogue",
+   "start": 1164850,
+   "end": 1165490,
+   "text": "老爹",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 290,
+   "cue": null
+  },
+  {
+   "i": 261,
+   "kind": "Dialogue",
+   "start": 1166430,
+   "end": 1167860,
+   "text": "好像发生了什么啊",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 291,
+   "cue": null
+  },
+  {
+   "i": 262,
+   "kind": "Dialogue",
+   "start": 1168680,
+   "end": 1170120,
+   "text": "没什么大不了的啦",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 292,
+   "cue": null
+  },
+  {
+   "i": 263,
+   "kind": "Dialogue",
+   "start": 1170890,
+   "end": 1173370,
+   "text": "来了些没礼貌的客人而已",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 293,
+   "cue": null
+  },
+  {
+   "i": 264,
+   "kind": "Dialogue",
+   "start": 1179890,
+   "end": 1180430,
+   "text": "创真",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 294,
+   "cue": null
+  },
+  {
+   "i": 265,
+   "kind": "Dialogue",
+   "start": 1183210,
+   "end": 1184710,
+   "text": "这家店  准备两三年…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 295,
+   "cue": null
+  },
+  {
+   "i": 266,
+   "kind": "Dialogue",
+   "start": 1186610,
+   "end": 1187290,
+   "text": "休业",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 296,
+   "cue": null
+  },
+  {
+   "i": 267,
+   "kind": "Dialogue",
+   "start": 1191870,
+   "end": 1195220,
+   "text": "嘛果然还是要去和常客们道个歉才行",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 297,
+   "cue": null
+  },
+  {
+   "i": 268,
+   "kind": "Dialogue",
+   "start": 1195260,
+   "end": 1196820,
+   "text": "先向儿子道歉啊",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 298,
+   "cue": null
+  },
+  {
+   "i": 269,
+   "kind": "Dialogue",
+   "start": 1197730,
+   "end": 1201610,
+   "text": "被以前的伙伴邀请说要不要一起工作",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 299,
+   "cue": null
+  },
+  {
+   "i": 270,
+   "kind": "Dialogue",
+   "start": 1202010,
+   "end": 1202490,
+   "text": "什么",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 300,
+   "cue": null
+  },
+  {
+   "i": 271,
+   "kind": "Dialogue",
+   "start": 1203440,
+   "end": 1205540,
+   "text": "暂时会住在那边",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 301,
+   "cue": null
+  },
+  {
+   "i": 272,
+   "kind": "Dialogue",
+   "start": 1205930,
+   "end": 1207300,
+   "text": "这边就暂时就不回来了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 302,
+   "cue": null
+  },
+  {
+   "i": 273,
+   "kind": "Dialogue",
+   "start": 1208800,
+   "end": 1211040,
+   "text": "怎么能…擅自",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 303,
+   "cue": null
+  },
+  {
+   "i": 274,
+   "kind": "Dialogue",
+   "start": 1213860,
+   "end": 1215160,
+   "text": "喂  老爹",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 304,
+   "cue": null
+  },
+  {
+   "i": 275,
+   "kind": "Dialogue",
+   "start": 1215630,
+   "end": 1217210,
+   "text": "我去收拾下行李",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 305,
+   "cue": null
+  },
+  {
+   "i": 276,
+   "kind": "Dialogue",
+   "start": 1217400,
+   "end": 1218360,
+   "text": "马上就走",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 306,
+   "cue": null
+  },
+  {
+   "i": 277,
+   "kind": "Dialogue",
+   "start": 1218790,
+   "end": 1219290,
+   "text": "等一下",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 307,
+   "cue": null
+  },
+  {
+   "i": 278,
+   "kind": "Dialogue",
+   "start": 1220320,
+   "end": 1222870,
+   "text": "你的生活费我会适当地打给你的",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 308,
+   "cue": null
+  },
+  {
+   "i": 279,
+   "kind": "Dialogue",
+   "start": 1223090,
+   "end": 1223860,
+   "text": "我说等一下",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 309,
+   "cue": null
+  },
+  {
+   "i": 280,
+   "kind": "Dialogue",
+   "start": 1224900,
+   "end": 1228780,
+   "text": "我一直…在这家店",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 310,
+   "cue": null
+  },
+  {
+   "i": 281,
+   "kind": "Dialogue",
+   "start": 1236620,
+   "end": 1238650,
+   "text": "是启程的时候了  创真",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 311,
+   "cue": null
+  },
+  {
+   "i": 282,
+   "kind": "Dialogue",
+   "start": 1239980,
+   "end": 1241830,
+   "text": "去试试看你有多大本事吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 312,
+   "cue": null
+  },
+  {
+   "i": 283,
+   "kind": "Dialogue",
+   "start": 1246450,
+   "end": 1247580,
+   "text": "料理学校？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 313,
+   "cue": null
+  },
+  {
+   "i": 284,
+   "kind": "Dialogue",
+   "start": 1248480,
+   "end": 1251200,
+   "text": "为什么  这种时候还得去这种地方啊",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 314,
+   "cue": null
+  },
+  {
+   "i": 285,
+   "kind": "Dialogue",
+   "start": 1251830,
+   "end": 1252660,
+   "text": "不是正好吗",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 315,
+   "cue": null
+  },
+  {
+   "i": 286,
+   "kind": "Dialogue",
+   "start": 1253300,
+   "end": 1254160,
+   "text": "反正店也要关门",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 316,
+   "cue": null
+  },
+  {
+   "i": 287,
+   "kind": "Dialogue",
+   "start": 1254640,
+   "end": 1257410,
+   "text": "这所学校也能拿到高中课程的学分",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 317,
+   "cue": null
+  },
+  {
+   "i": 288,
+   "kind": "Dialogue",
+   "start": 1258340,
+   "end": 1260720,
+   "text": "这三年  好好努力吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 318,
+   "cue": null
+  },
+  {
+   "i": 289,
+   "kind": "Dialogue",
+   "start": 1267340,
+   "end": 1269930,
+   "text": "付钱来学习料理  真是够蠢的",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 319,
+   "cue": null
+  },
+  {
+   "i": 290,
+   "kind": "Dialogue",
+   "start": 1270540,
+   "end": 1273080,
+   "text": "反正料理学校都那样吧",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 320,
+   "cue": null
+  },
+  {
+   "i": 291,
+   "kind": "Dialogue",
+   "start": 1274200,
+   "end": 1275220,
+   "text": "好的",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 321,
+   "cue": null
+  },
+  {
+   "i": 292,
+   "kind": "Dialogue",
+   "start": 1275500,
+   "end": 1279680,
+   "text": "今天来教大家做一道简单的料理",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 322,
+   "cue": null
+  },
+  {
+   "i": 293,
+   "kind": "Dialogue",
+   "start": 1280010,
+   "end": 1281470,
+   "text": "好的  老师",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 323,
+   "cue": null
+  },
+  {
+   "i": 294,
+   "kind": "Dialogue",
+   "start": 1285210,
+   "end": 1287620,
+   "text": "进级考试落榜了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 324,
+   "cue": null
+  },
+  {
+   "i": 295,
+   "kind": "Dialogue",
+   "start": 1287720,
+   "end": 1288450,
+   "text": "已经不行了…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 325,
+   "cue": null
+  },
+  {
+   "i": 296,
+   "kind": "Dialogue",
+   "start": 1288920,
+   "end": 1290200,
+   "text": "人生已经结束了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 326,
+   "cue": null
+  },
+  {
+   "i": 297,
+   "kind": "Dialogue",
+   "start": 1290600,
+   "end": 1292020,
+   "text": "拜托了",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 327,
+   "cue": null
+  },
+  {
+   "i": 298,
+   "kind": "Dialogue",
+   "start": 1293090,
+   "end": 1295620,
+   "text": "就算是一千万两千万我都会给的",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 328,
+   "cue": null
+  },
+  {
+   "i": 299,
+   "kind": "Dialogue",
+   "start": 1296010,
+   "end": 1299140,
+   "text": "请撤回我儿子的退学吧！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 329,
+   "cue": null
+  },
+  {
+   "i": 300,
+   "kind": "Dialogue",
+   "start": 1299190,
+   "end": 1299930,
+   "text": "怎么回事？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 330,
+   "cue": null
+  },
+  {
+   "i": 301,
+   "kind": "Dialogue",
+   "start": 1306520,
+   "end": 1308290,
+   "text": "什么  我没跟你说吗",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 331,
+   "cue": null
+  },
+  {
+   "i": 302,
+   "kind": "Dialogue",
+   "start": 1311170,
+   "end": 1313250,
+   "text": "那是日本屈指可数的料理学校",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 332,
+   "cue": null
+  },
+  {
+   "i": 303,
+   "kind": "Dialogue",
+   "start": 1314110,
+   "end": 1316650,
+   "text": "毕业率低至百分之十以下",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 333,
+   "cue": null
+  },
+  {
+   "i": 304,
+   "kind": "Dialogue",
+   "start": 1317460,
+   "end": 1319250,
+   "text": "超精英学校",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 334,
+   "cue": null
+  },
+  {
+   "i": 305,
+   "kind": "Comment",
+   "start": 3150,
+   "end": 3900,
+   "text": "//------------------NEXT-------------------",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 335,
+   "cue": null
+  },
+  {
+   "i": 306,
+   "kind": "Dialogue",
+   "start": 1444540,
+   "end": 1445250,
+   "text": "超",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 336,
+   "cue": null
+  },
+  {
+   "i": 307,
+   "kind": "Dialogue",
+   "start": 1445500,
+   "end": 1446210,
+   "text": "难",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 337,
+   "cue": null
+  },
+  {
+   "i": 308,
+   "kind": "Dialogue",
+   "start": 1446460,
+   "end": 1447170,
+   "text": "吃",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 338,
+   "cue": null
+  },
+  {
+   "i": 309,
+   "kind": "Dialogue",
+   "start": 1447380,
+   "end": 1449130,
+   "text": "超难吃",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 339,
+   "cue": null
+  },
+  {
+   "i": 310,
+   "kind": "Dialogue",
+   "start": 1449600,
+   "end": 1450390,
+   "text": "难吃！",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 340,
+   "cue": null
+  },
+  {
+   "i": 311,
+   "kind": "Dialogue",
+   "start": 1454160,
+   "end": 1455460,
+   "text": "真是要命的高汤",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 341,
+   "cue": null
+  },
+  {
+   "i": 312,
+   "kind": "Dialogue",
+   "start": 1456060,
+   "end": 1458070,
+   "text": "就好像平静地在瀑布下修炼时",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 342,
+   "cue": null
+  },
+  {
+   "i": 313,
+   "kind": "Dialogue",
+   "start": 1458110,
+   "end": 1460330,
+   "text": "点唱机从天而降的味道",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 343,
+   "cue": null
+  },
+  {
+   "i": 314,
+   "kind": "Dialogue",
+   "start": 1460660,
+   "end": 1461890,
+   "text": "点唱机？",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 344,
+   "cue": null
+  },
+  {
+   "i": 315,
+   "kind": "Dialogue",
+   "start": 1462160,
+   "end": 1463190,
+   "text": "好难理解…",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 345,
+   "cue": null
+  },
+  {
+   "i": 316,
+   "kind": "Dialogue",
+   "start": 1464740,
+   "end": 1467940,
+   "text": "真…真的很对不起  绘里奈大小姐",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 346,
+   "cue": null
+  },
+  {
+   "i": 317,
+   "kind": "Dialogue",
+   "start": 1468340,
+   "end": 1471070,
+   "text": "真的是…不好笑",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 347,
+   "cue": null
+  },
+  {
+   "i": 318,
+   "kind": "Dialogue",
+   "start": 1472430,
+   "end": 1474050,
+   "text": "一点也不好笑",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 348,
+   "cue": null
+  },
+  {
+   "i": 319,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\fs40\\frz-10\\fs40\\pos(1222,476)}{\\1cAFA6D6}鱿",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 349,
+   "cue": null
+  },
+  {
+   "i": 320,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\frz-10\\fs40\\pos(1213,509)}{\\1cAFA6D6}鱼",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 350,
+   "cue": null
+  },
+  {
+   "i": 321,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\frz-10\\fs40\\pos(1203,541)}{\\1c343839}的",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 351,
+   "cue": null
+  },
+  {
+   "i": 322,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\frz-10\\fs40\\pos(1195,570)}{\\1c343839}味",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 352,
+   "cue": null
+  },
+  {
+   "i": 323,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\frz-10\\fs40\\pos(1190,603)}{\\1c343839}道",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 353,
+   "cue": null
+  },
+  {
+   "i": 324,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\frz-10\\fs40\\pos(1174,488)}{\\1c343839}稍",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 354,
+   "cue": null
+  },
+  {
+   "i": 325,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\frz-10\\fs40\\pos(1168,521)}{\\1c343839}微",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 355,
+   "cue": null
+  },
+  {
+   "i": 326,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\frz-10\\fs40\\pos(1160,549)}{\\1c343839}有",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 356,
+   "cue": null
+  },
+  {
+   "i": 327,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\frz-10\\fs40\\pos(1154,585)}{\\1c343839}些",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 357,
+   "cue": null
+  },
+  {
+   "i": 328,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\frz-10\\fs40\\pos(1147,614)}{\\1c343839}好",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 358,
+   "cue": null
+  },
+  {
+   "i": 329,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\frz-10\\fs40\\pos(1141,648)}{\\1c343839}吃",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 359,
+   "cue": null
+  },
+  {
+   "i": 330,
+   "kind": "Dialogue",
+   "start": 1477870,
+   "end": 1482830,
+   "text": "{\\fn方正字迹-童体硬笔字体\\bord0\\shad0\\blur0.5\\b0\\frz-10\\fs40\\pos(1137,679)}{\\1c343839}了",
+   "style": "Default",
+   "name": "FR",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 360,
+   "cue": null
+  },
+  {
+   "i": 331,
+   "kind": "Dialogue",
+   "start": 1479450,
+   "end": 1482030,
+   "text": "哈啊…鱿鱼花生",
+   "style": "Default",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 361,
+   "cue": null
+  },
+  {
+   "i": 332,
+   "kind": "Comment",
+   "start": 243890,
+   "end": 243930,
+   "text": "//------------------OPJP-------------------",
+   "style": "opjp",
+   "name": "",
+   "layer": 5896,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 362,
+   "cue": null
+  },
+  {
+   "i": 333,
+   "kind": "Dialogue",
+   "start": 241360,
+   "end": 243860,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}生まれ変わる",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 363,
+   "cue": null
+  },
+  {
+   "i": 334,
+   "kind": "Dialogue",
+   "start": 244070,
+   "end": 246560,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}今ここで",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 364,
+   "cue": null
+  },
+  {
+   "i": 335,
+   "kind": "Dialogue",
+   "start": 246770,
+   "end": 249200,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}あおいでった",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 365,
+   "cue": null
+  },
+  {
+   "i": 336,
+   "kind": "Dialogue",
+   "start": 249470,
+   "end": 252010,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}空超えていく",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 366,
+   "cue": null
+  },
+  {
+   "i": 337,
+   "kind": "Dialogue",
+   "start": 252260,
+   "end": 254660,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}握りしめた",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 367,
+   "cue": null
+  },
+  {
+   "i": 338,
+   "kind": "Dialogue",
+   "start": 254930,
+   "end": 257350,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}掌のひらの",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 368,
+   "cue": null
+  },
+  {
+   "i": 339,
+   "kind": "Dialogue",
+   "start": 257630,
+   "end": 260040,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}その中に",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 369,
+   "cue": null
+  },
+  {
+   "i": 340,
+   "kind": "Dialogue",
+   "start": 260320,
+   "end": 263160,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}希望があったんだ",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 370,
+   "cue": null
+  },
+  {
+   "i": 341,
+   "kind": "Dialogue",
+   "start": 267410,
+   "end": 272490,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}目の前に広がる景色  全部が",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 371,
+   "cue": null
+  },
+  {
+   "i": 342,
+   "kind": "Dialogue",
+   "start": 272820,
+   "end": 277550,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}実はちっぼけだったと気ついた",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 372,
+   "cue": null
+  },
+  {
+   "i": 343,
+   "kind": "Dialogue",
+   "start": 278110,
+   "end": 282760,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}例えば君と出逢えば簡単に",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 373,
+   "cue": null
+  },
+  {
+   "i": 344,
+   "kind": "Dialogue",
+   "start": 283010,
+   "end": 287390,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}世界はびっくり変える",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 374,
+   "cue": null
+  },
+  {
+   "i": 345,
+   "kind": "Dialogue",
+   "start": 288400,
+   "end": 291590,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}知らないことだらけで",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 375,
+   "cue": null
+  },
+  {
+   "i": 346,
+   "kind": "Dialogue",
+   "start": 291850,
+   "end": 294320,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}笑えてく",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 376,
+   "cue": null
+  },
+  {
+   "i": 347,
+   "kind": "Dialogue",
+   "start": 294580,
+   "end": 297960,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}またまた先にいけ",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 377,
+   "cue": null
+  },
+  {
+   "i": 348,
+   "kind": "Dialogue",
+   "start": 298670,
+   "end": 300610,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}あかしだ",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 378,
+   "cue": null
+  },
+  {
+   "i": 349,
+   "kind": "Dialogue",
+   "start": 301000,
+   "end": 303480,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}追いかけてた",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 379,
+   "cue": null
+  },
+  {
+   "i": 350,
+   "kind": "Dialogue",
+   "start": 303730,
+   "end": 306140,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}春が遠く",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 380,
+   "cue": null
+  },
+  {
+   "i": 351,
+   "kind": "Dialogue",
+   "start": 306440,
+   "end": 308890,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}譲れない",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 381,
+   "cue": null
+  },
+  {
+   "i": 352,
+   "kind": "Dialogue",
+   "start": 309120,
+   "end": 311650,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}思いも連れて",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 382,
+   "cue": null
+  },
+  {
+   "i": 353,
+   "kind": "Dialogue",
+   "start": 311860,
+   "end": 314320,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}誰も知らない",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 383,
+   "cue": null
+  },
+  {
+   "i": 354,
+   "kind": "Dialogue",
+   "start": 314580,
+   "end": 316980,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}いただきを",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 384,
+   "cue": null
+  },
+  {
+   "i": 355,
+   "kind": "Dialogue",
+   "start": 317280,
+   "end": 319700,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}目指して行く",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 385,
+   "cue": null
+  },
+  {
+   "i": 356,
+   "kind": "Dialogue",
+   "start": 319970,
+   "end": 322780,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}全てかけて",
+   "style": "opjp",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 386,
+   "cue": null
+  },
+  {
+   "i": 357,
+   "kind": "Comment",
+   "start": 14950,
+   "end": 19660,
+   "text": "//------------------OPJP-------------------",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 387,
+   "cue": null
+  },
+  {
+   "i": 358,
+   "kind": "Dialogue",
+   "start": 241360,
+   "end": 243860,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}生まれ変わる",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 388,
+   "cue": null
+  },
+  {
+   "i": 359,
+   "kind": "Dialogue",
+   "start": 244070,
+   "end": 246560,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}今ここで",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 389,
+   "cue": null
+  },
+  {
+   "i": 360,
+   "kind": "Dialogue",
+   "start": 246770,
+   "end": 249200,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}あおいでった",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 390,
+   "cue": null
+  },
+  {
+   "i": 361,
+   "kind": "Dialogue",
+   "start": 249470,
+   "end": 252010,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}空超えていく",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 391,
+   "cue": null
+  },
+  {
+   "i": 362,
+   "kind": "Dialogue",
+   "start": 252260,
+   "end": 254660,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}握りしめた",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 392,
+   "cue": null
+  },
+  {
+   "i": 363,
+   "kind": "Dialogue",
+   "start": 254930,
+   "end": 257350,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}掌のひらの",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 393,
+   "cue": null
+  },
+  {
+   "i": 364,
+   "kind": "Dialogue",
+   "start": 257630,
+   "end": 260040,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}その中に",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 394,
+   "cue": null
+  },
+  {
+   "i": 365,
+   "kind": "Dialogue",
+   "start": 260320,
+   "end": 263160,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}希望があったんだ",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 395,
+   "cue": null
+  },
+  {
+   "i": 366,
+   "kind": "Dialogue",
+   "start": 267410,
+   "end": 272490,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}目の前に広がる景色  全部が",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 396,
+   "cue": null
+  },
+  {
+   "i": 367,
+   "kind": "Dialogue",
+   "start": 272820,
+   "end": 277550,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}実はちっぼけだったと気ついた",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 397,
+   "cue": null
+  },
+  {
+   "i": 368,
+   "kind": "Dialogue",
+   "start": 278110,
+   "end": 282760,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}例えば君と出逢えば簡単に",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 398,
+   "cue": null
+  },
+  {
+   "i": 369,
+   "kind": "Dialogue",
+   "start": 283010,
+   "end": 287390,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}世界はびっくり変える",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 399,
+   "cue": null
+  },
+  {
+   "i": 370,
+   "kind": "Dialogue",
+   "start": 288400,
+   "end": 291590,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}知らないことだらけで",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 400,
+   "cue": null
+  },
+  {
+   "i": 371,
+   "kind": "Dialogue",
+   "start": 291850,
+   "end": 294320,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}笑えてく",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 401,
+   "cue": null
+  },
+  {
+   "i": 372,
+   "kind": "Dialogue",
+   "start": 294580,
+   "end": 297960,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}またまた先にいけ",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 402,
+   "cue": null
+  },
+  {
+   "i": 373,
+   "kind": "Dialogue",
+   "start": 298670,
+   "end": 300610,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}あかしだ",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 403,
+   "cue": null
+  },
+  {
+   "i": 374,
+   "kind": "Dialogue",
+   "start": 301000,
+   "end": 303480,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}追いかけてた",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 404,
+   "cue": null
+  },
+  {
+   "i": 375,
+   "kind": "Dialogue",
+   "start": 303730,
+   "end": 306140,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}春が遠く",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 405,
+   "cue": null
+  },
+  {
+   "i": 376,
+   "kind": "Dialogue",
+   "start": 306440,
+   "end": 308890,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}譲れない",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 406,
+   "cue": null
+  },
+  {
+   "i": 377,
+   "kind": "Dialogue",
+   "start": 309120,
+   "end": 311650,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}思いも連れて",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 407,
+   "cue": null
+  },
+  {
+   "i": 378,
+   "kind": "Dialogue",
+   "start": 311860,
+   "end": 314320,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}誰も知らない",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 408,
+   "cue": null
+  },
+  {
+   "i": 379,
+   "kind": "Dialogue",
+   "start": 314580,
+   "end": 316980,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}いただきを",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 409,
+   "cue": null
+  },
+  {
+   "i": 380,
+   "kind": "Dialogue",
+   "start": 317280,
+   "end": 319700,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}目指して行く",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 410,
+   "cue": null
+  },
+  {
+   "i": 381,
+   "kind": "Dialogue",
+   "start": 319970,
+   "end": 322780,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}全てかけて",
+   "style": "opjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 411,
+   "cue": null
+  },
+  {
+   "i": 382,
+   "kind": "Comment",
+   "start": 14950,
+   "end": 19660,
+   "text": "//------------------OPCN-------------------",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 412,
+   "cue": null
+  },
+  {
+   "i": 383,
+   "kind": "Dialogue",
+   "start": 241360,
+   "end": 243860,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}脱胎换骨",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 413,
+   "cue": null
+  },
+  {
+   "i": 384,
+   "kind": "Dialogue",
+   "start": 244070,
+   "end": 246560,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}现在在这里",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 414,
+   "cue": null
+  },
+  {
+   "i": 385,
+   "kind": "Dialogue",
+   "start": 246770,
+   "end": 249200,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}超越这",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 415,
+   "cue": null
+  },
+  {
+   "i": 386,
+   "kind": "Dialogue",
+   "start": 249470,
+   "end": 252010,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}湛蓝的天空",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 416,
+   "cue": null
+  },
+  {
+   "i": 387,
+   "kind": "Dialogue",
+   "start": 252260,
+   "end": 254660,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}握住了",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 417,
+   "cue": null
+  },
+  {
+   "i": 388,
+   "kind": "Dialogue",
+   "start": 254930,
+   "end": 257350,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}在掌心中的",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 418,
+   "cue": null
+  },
+  {
+   "i": 389,
+   "kind": "Dialogue",
+   "start": 257630,
+   "end": 260040,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}在那之中",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 419,
+   "cue": null
+  },
+  {
+   "i": 390,
+   "kind": "Dialogue",
+   "start": 260320,
+   "end": 263160,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}出现了希望",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 420,
+   "cue": null
+  },
+  {
+   "i": 391,
+   "kind": "Dialogue",
+   "start": 267410,
+   "end": 272490,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}发觉到  在眼前展开的景色",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 421,
+   "cue": null
+  },
+  {
+   "i": 392,
+   "kind": "Dialogue",
+   "start": 272820,
+   "end": 277550,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}事实上全都非常渺小",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 422,
+   "cue": null
+  },
+  {
+   "i": 393,
+   "kind": "Dialogue",
+   "start": 278110,
+   "end": 282760,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}如果能跟你相见",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 423,
+   "cue": null
+  },
+  {
+   "i": 394,
+   "kind": "Dialogue",
+   "start": 283010,
+   "end": 287390,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}那么就能简单的改变这个世界",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 424,
+   "cue": null
+  },
+  {
+   "i": 395,
+   "kind": "Dialogue",
+   "start": 288400,
+   "end": 291590,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}在不解和疑惑中",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 425,
+   "cue": null
+  },
+  {
+   "i": 396,
+   "kind": "Dialogue",
+   "start": 291850,
+   "end": 294320,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}微笑带过",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 426,
+   "cue": null
+  },
+  {
+   "i": 397,
+   "kind": "Dialogue",
+   "start": 294580,
+   "end": 297960,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}是再向前一步的",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 427,
+   "cue": null
+  },
+  {
+   "i": 398,
+   "kind": "Dialogue",
+   "start": 298670,
+   "end": 300610,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}证明啊",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 428,
+   "cue": null
+  },
+  {
+   "i": 399,
+   "kind": "Dialogue",
+   "start": 301000,
+   "end": 303480,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}追赶上了",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 429,
+   "cue": null
+  },
+  {
+   "i": 400,
+   "kind": "Dialogue",
+   "start": 303730,
+   "end": 306140,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}春天很遥远",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 430,
+   "cue": null
+  },
+  {
+   "i": 401,
+   "kind": "Dialogue",
+   "start": 306440,
+   "end": 308890,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}不会退让",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 431,
+   "cue": null
+  },
+  {
+   "i": 402,
+   "kind": "Dialogue",
+   "start": 309120,
+   "end": 311650,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}带着回忆",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 432,
+   "cue": null
+  },
+  {
+   "i": 403,
+   "kind": "Dialogue",
+   "start": 311860,
+   "end": 314320,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}无人知晓",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 433,
+   "cue": null
+  },
+  {
+   "i": 404,
+   "kind": "Dialogue",
+   "start": 314580,
+   "end": 316980,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}赌上一切",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 434,
+   "cue": null
+  },
+  {
+   "i": 405,
+   "kind": "Dialogue",
+   "start": 317280,
+   "end": 319700,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}目标顶峰",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 435,
+   "cue": null
+  },
+  {
+   "i": 406,
+   "kind": "Dialogue",
+   "start": 319970,
+   "end": 322780,
+   "text": "{\\fad(200,200)}{\\3c00008C\\1c82C0FF}出发",
+   "style": "opcn",
+   "name": "",
+   "layer": 1,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 436,
+   "cue": null
+  },
+  {
+   "i": 407,
+   "kind": "Comment",
+   "start": 14950,
+   "end": 19660,
+   "text": "//------------------OPCN-------------------",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 437,
+   "cue": null
+  },
+  {
+   "i": 408,
+   "kind": "Dialogue",
+   "start": 241360,
+   "end": 243860,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}脱胎换骨",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 438,
+   "cue": null
+  },
+  {
+   "i": 409,
+   "kind": "Dialogue",
+   "start": 244070,
+   "end": 246560,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}现在在这里",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 439,
+   "cue": null
+  },
+  {
+   "i": 410,
+   "kind": "Dialogue",
+   "start": 246770,
+   "end": 249200,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}超越这",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 440,
+   "cue": null
+  },
+  {
+   "i": 411,
+   "kind": "Dialogue",
+   "start": 249470,
+   "end": 252010,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}湛蓝的天空",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 441,
+   "cue": null
+  },
+  {
+   "i": 412,
+   "kind": "Dialogue",
+   "start": 252260,
+   "end": 254660,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}握住了",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 442,
+   "cue": null
+  },
+  {
+   "i": 413,
+   "kind": "Dialogue",
+   "start": 254930,
+   "end": 257350,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}在掌心中的",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 443,
+   "cue": null
+  },
+  {
+   "i": 414,
+   "kind": "Dialogue",
+   "start": 257630,
+   "end": 260040,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}在那之中",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 444,
+   "cue": null
+  },
+  {
+   "i": 415,
+   "kind": "Dialogue",
+   "start": 260320,
+   "end": 263160,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}出现了希望",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 445,
+   "cue": null
+  },
+  {
+   "i": 416,
+   "kind": "Dialogue",
+   "start": 267410,
+   "end": 272490,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}发觉到  在眼前展开的景色",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 446,
+   "cue": null
+  },
+  {
+   "i": 417,
+   "kind": "Dialogue",
+   "start": 272820,
+   "end": 277550,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}事实上全都非常渺小",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 447,
+   "cue": null
+  },
+  {
+   "i": 418,
+   "kind": "Dialogue",
+   "start": 278110,
+   "end": 282760,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}如果能跟你相见",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 448,
+   "cue": null
+  },
+  {
+   "i": 419,
+   "kind": "Dialogue",
+   "start": 283010,
+   "end": 287390,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}那么就能简单的改变这个世界",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 449,
+   "cue": null
+  },
+  {
+   "i": 420,
+   "kind": "Dialogue",
+   "start": 288400,
+   "end": 291590,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}在不解和疑惑中",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 450,
+   "cue": null
+  },
+  {
+   "i": 421,
+   "kind": "Dialogue",
+   "start": 291850,
+   "end": 294320,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}微笑带过",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 451,
+   "cue": null
+  },
+  {
+   "i": 422,
+   "kind": "Dialogue",
+   "start": 294580,
+   "end": 297960,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}是再向前一步的",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 452,
+   "cue": null
+  },
+  {
+   "i": 423,
+   "kind": "Dialogue",
+   "start": 298670,
+   "end": 300610,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}证明啊",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 453,
+   "cue": null
+  },
+  {
+   "i": 424,
+   "kind": "Dialogue",
+   "start": 301000,
+   "end": 303480,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}追赶上了",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 454,
+   "cue": null
+  },
+  {
+   "i": 425,
+   "kind": "Dialogue",
+   "start": 303730,
+   "end": 306140,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}春天很遥远",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 455,
+   "cue": null
+  },
+  {
+   "i": 426,
+   "kind": "Dialogue",
+   "start": 306440,
+   "end": 308890,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}不会退让",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 456,
+   "cue": null
+  },
+  {
+   "i": 427,
+   "kind": "Dialogue",
+   "start": 309120,
+   "end": 311650,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}带着回忆",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 457,
+   "cue": null
+  },
+  {
+   "i": 428,
+   "kind": "Dialogue",
+   "start": 311860,
+   "end": 314320,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}无人知晓",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 458,
+   "cue": null
+  },
+  {
+   "i": 429,
+   "kind": "Dialogue",
+   "start": 314580,
+   "end": 316980,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}赌上一切",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 459,
+   "cue": null
+  },
+  {
+   "i": 430,
+   "kind": "Dialogue",
+   "start": 317280,
+   "end": 319700,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}目标顶峰",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 460,
+   "cue": null
+  },
+  {
+   "i": 431,
+   "kind": "Dialogue",
+   "start": 319970,
+   "end": 322780,
+   "text": "{\\fad(200,200)}{\\3cFFFFFF\\bord3\\blur2.5\\1aFF}出发",
+   "style": "opcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 461,
+   "cue": null
+  },
+  {
+   "i": 432,
+   "kind": "Comment",
+   "start": 1326050,
+   "end": 1326090,
+   "text": "//------------------EDJP-------------------",
+   "style": "edjp",
+   "name": "",
+   "layer": 31842,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 462,
+   "cue": null
+  },
+  {
+   "i": 433,
+   "kind": "Dialogue",
+   "start": 1333110,
+   "end": 1336420,
+   "text": "{\\fad(200,200)}諦めちゃっていいのに",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 463,
+   "cue": null
+  },
+  {
+   "i": 434,
+   "kind": "Dialogue",
+   "start": 1337040,
+   "end": 1340380,
+   "text": "{\\fad(200,200)}止めちゃええと思うのに",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 464,
+   "cue": null
+  },
+  {
+   "i": 435,
+   "kind": "Dialogue",
+   "start": 1340510,
+   "end": 1343710,
+   "text": "{\\fad(200,200)}逃げ出すことさえできなくて",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 465,
+   "cue": null
+  },
+  {
+   "i": 436,
+   "kind": "Dialogue",
+   "start": 1344430,
+   "end": 1347380,
+   "text": "{\\fad(200,200)}ふらふら ふらふら",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 466,
+   "cue": null
+  },
+  {
+   "i": 437,
+   "kind": "Dialogue",
+   "start": 1347890,
+   "end": 1351180,
+   "text": "{\\fad(200,200)}自信がなくてそのせいで",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 467,
+   "cue": null
+  },
+  {
+   "i": 438,
+   "kind": "Dialogue",
+   "start": 1351550,
+   "end": 1355140,
+   "text": "{\\fad(200,200)}自分自身も出せなくて",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 468,
+   "cue": null
+  },
+  {
+   "i": 439,
+   "kind": "Dialogue",
+   "start": 1355280,
+   "end": 1358590,
+   "text": "{\\fad(200,200)}自信なくしてスパイラル",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 469,
+   "cue": null
+  },
+  {
+   "i": 440,
+   "kind": "Dialogue",
+   "start": 1359180,
+   "end": 1362290,
+   "text": "{\\fad(200,200)}ぐるぐる ぐるぐる",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 470,
+   "cue": null
+  },
+  {
+   "i": 441,
+   "kind": "Dialogue",
+   "start": 1362890,
+   "end": 1368640,
+   "text": "{\\fad(200,200)}でも出会えだから",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 471,
+   "cue": null
+  },
+  {
+   "i": 442,
+   "kind": "Dialogue",
+   "start": 1370280,
+   "end": 1375470,
+   "text": "{\\fad(200,200)}もう見失われよ",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 472,
+   "cue": null
+  },
+  {
+   "i": 443,
+   "kind": "Dialogue",
+   "start": 1376300,
+   "end": 1379890,
+   "text": "{\\fad(200,200)}笑顔があれば言わないなにも",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 473,
+   "cue": null
+  },
+  {
+   "i": 444,
+   "kind": "Dialogue",
+   "start": 1379970,
+   "end": 1381750,
+   "text": "{\\fad(200,200)}もう悲しなも",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 474,
+   "cue": null
+  },
+  {
+   "i": 445,
+   "kind": "Dialogue",
+   "start": 1381810,
+   "end": 1383550,
+   "text": "{\\fad(200,200)}派手な飾りも",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 475,
+   "cue": null
+  },
+  {
+   "i": 446,
+   "kind": "Dialogue",
+   "start": 1383660,
+   "end": 1385250,
+   "text": "{\\fad(200,200)}言わないから",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 476,
+   "cue": null
+  },
+  {
+   "i": 447,
+   "kind": "Dialogue",
+   "start": 1385440,
+   "end": 1387280,
+   "text": "{\\fad(200,200)}食卓たこも",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 477,
+   "cue": null
+  },
+  {
+   "i": 448,
+   "kind": "Dialogue",
+   "start": 1387350,
+   "end": 1389090,
+   "text": "{\\fad(200,200)}昨日のミスも",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 478,
+   "cue": null
+  },
+  {
+   "i": 449,
+   "kind": "Dialogue",
+   "start": 1389210,
+   "end": 1390930,
+   "text": "{\\fad(200,200)}不安な明日も",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 479,
+   "cue": null
+  },
+  {
+   "i": 450,
+   "kind": "Dialogue",
+   "start": 1391030,
+   "end": 1392070,
+   "text": "{\\fad(200,200)}添えて",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 480,
+   "cue": null
+  },
+  {
+   "i": 451,
+   "kind": "Dialogue",
+   "start": 1392440,
+   "end": 1394600,
+   "text": "{\\fad(200,200)}ね 言わない何も",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 481,
+   "cue": null
+  },
+  {
+   "i": 452,
+   "kind": "Dialogue",
+   "start": 1394740,
+   "end": 1396480,
+   "text": "{\\fad(200,200)}凍た足付けも",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 482,
+   "cue": null
+  },
+  {
+   "i": 453,
+   "kind": "Dialogue",
+   "start": 1396570,
+   "end": 1398330,
+   "text": "{\\fad(200,200)}しゃれた盛りつけも",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 483,
+   "cue": null
+  },
+  {
+   "i": 454,
+   "kind": "Dialogue",
+   "start": 1398420,
+   "end": 1400030,
+   "text": "{\\fad(200,200)}言わないから",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 484,
+   "cue": null
+  },
+  {
+   "i": 455,
+   "kind": "Dialogue",
+   "start": 1400280,
+   "end": 1402040,
+   "text": "{\\fad(200,200)}涙の味はも",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 485,
+   "cue": null
+  },
+  {
+   "i": 456,
+   "kind": "Dialogue",
+   "start": 1402070,
+   "end": 1403850,
+   "text": "{\\fad(200,200)}しょっぱいとしても",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 486,
+   "cue": null
+  },
+  {
+   "i": 457,
+   "kind": "Dialogue",
+   "start": 1403970,
+   "end": 1405850,
+   "text": "{\\fad(200,200)}最後にいつも",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 487,
+   "cue": null
+  },
+  {
+   "i": 458,
+   "kind": "Dialogue",
+   "start": 1405870,
+   "end": 1409210,
+   "text": "{\\fad(200,200)}笑いから",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 488,
+   "cue": null
+  },
+  {
+   "i": 459,
+   "kind": "Dialogue",
+   "start": 1409440,
+   "end": 1412520,
+   "text": "{\\fad(200,200)}それがスパイス",
+   "style": "edjp",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 489,
+   "cue": null
+  },
+  {
+   "i": 460,
+   "kind": "Comment",
+   "start": 64950,
+   "end": 64950,
+   "text": "//------------------EDCN-------------------",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 490,
+   "cue": null
+  },
+  {
+   "i": 461,
+   "kind": "Dialogue",
+   "start": 1333110,
+   "end": 1336420,
+   "text": "{\\fad(200,200)}明明放弃比较好",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 491,
+   "cue": null
+  },
+  {
+   "i": 462,
+   "kind": "Dialogue",
+   "start": 1337040,
+   "end": 1340380,
+   "text": "{\\fad(200,200)}明明想着不要做了",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 492,
+   "cue": null
+  },
+  {
+   "i": 463,
+   "kind": "Dialogue",
+   "start": 1340510,
+   "end": 1343710,
+   "text": "{\\fad(200,200)}但是却连逃开也做不到",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 493,
+   "cue": null
+  },
+  {
+   "i": 464,
+   "kind": "Dialogue",
+   "start": 1344430,
+   "end": 1347380,
+   "text": "{\\fad(200,200)}摇摇晃晃  摇摇晃晃",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 494,
+   "cue": null
+  },
+  {
+   "i": 465,
+   "kind": "Dialogue",
+   "start": 1347890,
+   "end": 1351180,
+   "text": "{\\fad(200,200)}因为缺乏自信",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 495,
+   "cue": null
+  },
+  {
+   "i": 466,
+   "kind": "Dialogue",
+   "start": 1351550,
+   "end": 1355140,
+   "text": "{\\fad(200,200)}都不会好好表达自己",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 496,
+   "cue": null
+  },
+  {
+   "i": 467,
+   "kind": "Dialogue",
+   "start": 1355280,
+   "end": 1358590,
+   "text": "{\\fad(200,200)}在丢失了自信的螺旋里",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 497,
+   "cue": null
+  },
+  {
+   "i": 468,
+   "kind": "Dialogue",
+   "start": 1359180,
+   "end": 1362290,
+   "text": "{\\fad(200,200)}一圈一圈  一圈一圈",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 498,
+   "cue": null
+  },
+  {
+   "i": 469,
+   "kind": "Dialogue",
+   "start": 1362890,
+   "end": 1368640,
+   "text": "{\\fad(200,200)}但是已经相遇了",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 499,
+   "cue": null
+  },
+  {
+   "i": 470,
+   "kind": "Dialogue",
+   "start": 1370280,
+   "end": 1375470,
+   "text": "{\\fad(200,200)}不会再弄丢了",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 500,
+   "cue": null
+  },
+  {
+   "i": 471,
+   "kind": "Dialogue",
+   "start": 1376300,
+   "end": 1379890,
+   "text": "{\\fad(200,200)}只要有了笑容就算什么也不说",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 501,
+   "cue": null
+  },
+  {
+   "i": 472,
+   "kind": "Dialogue",
+   "start": 1379970,
+   "end": 1381750,
+   "text": "{\\fad(200,200)}悲伤的事情也好",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 502,
+   "cue": null
+  },
+  {
+   "i": 473,
+   "kind": "Dialogue",
+   "start": 1381810,
+   "end": 1383550,
+   "text": "{\\fad(200,200)}华丽的装饰也好",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 503,
+   "cue": null
+  },
+  {
+   "i": 474,
+   "kind": "Dialogue",
+   "start": 1383660,
+   "end": 1385250,
+   "text": "{\\fad(200,200)}都不用说",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 504,
+   "cue": null
+  },
+  {
+   "i": 475,
+   "kind": "Dialogue",
+   "start": 1385440,
+   "end": 1387280,
+   "text": "{\\fad(200,200)}桌上的饭菜也好",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 505,
+   "cue": null
+  },
+  {
+   "i": 476,
+   "kind": "Dialogue",
+   "start": 1387350,
+   "end": 1389090,
+   "text": "{\\fad(200,200)}昨天的错误也好",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 506,
+   "cue": null
+  },
+  {
+   "i": 477,
+   "kind": "Dialogue",
+   "start": 1389210,
+   "end": 1390930,
+   "text": "{\\fad(200,200)}不安的明天也好",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 507,
+   "cue": null
+  },
+  {
+   "i": 478,
+   "kind": "Dialogue",
+   "start": 1391030,
+   "end": 1392070,
+   "text": "{\\fad(200,200)}全部加上",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 508,
+   "cue": null
+  },
+  {
+   "i": 479,
+   "kind": "Dialogue",
+   "start": 1392440,
+   "end": 1394600,
+   "text": "{\\fad(200,200)}呐  就算什么都不说",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 509,
+   "cue": null
+  },
+  {
+   "i": 480,
+   "kind": "Dialogue",
+   "start": 1394740,
+   "end": 1396480,
+   "text": "{\\fad(200,200)}冻僵的脚步也好",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 510,
+   "cue": null
+  },
+  {
+   "i": 481,
+   "kind": "Dialogue",
+   "start": 1396570,
+   "end": 1398330,
+   "text": "{\\fad(200,200)}精美的装盘也好",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 511,
+   "cue": null
+  },
+  {
+   "i": 482,
+   "kind": "Dialogue",
+   "start": 1398420,
+   "end": 1400030,
+   "text": "{\\fad(200,200)}都不用说",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 512,
+   "cue": null
+  },
+  {
+   "i": 483,
+   "kind": "Dialogue",
+   "start": 1400280,
+   "end": 1402040,
+   "text": "{\\fad(200,200)}眼泪的味道也好",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 513,
+   "cue": null
+  },
+  {
+   "i": 484,
+   "kind": "Dialogue",
+   "start": 1402070,
+   "end": 1403850,
+   "text": "{\\fad(200,200)}就算是咸咸的",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 514,
+   "cue": null
+  },
+  {
+   "i": 485,
+   "kind": "Dialogue",
+   "start": 1403970,
+   "end": 1405850,
+   "text": "{\\fad(200,200)}最后也会一直",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 515,
+   "cue": null
+  },
+  {
+   "i": 486,
+   "kind": "Dialogue",
+   "start": 1405870,
+   "end": 1409210,
+   "text": "{\\fad(200,200)}微笑",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 516,
+   "cue": null
+  },
+  {
+   "i": 487,
+   "kind": "Dialogue",
+   "start": 1409440,
+   "end": 1412520,
+   "text": "{\\fad(200,200)}这就是调味品",
+   "style": "edcn",
+   "name": "",
+   "layer": 0,
+   "margins": [
+    0,
+    0,
+    0
+   ],
+   "effect": "",
+   "line": 517,
+   "cue": null
+  }
+ ],
+ "spans": [],
+ "roles": {
+  "0": "comment",
+  "1": "sign",
+  "2": "sign",
+  "3": "comment",
+  "4": "dialogue",
+  "5": "dialogue",
+  "6": "dialogue",
+  "7": "dialogue",
+  "8": "dialogue",
+  "9": "dialogue",
+  "10": "dialogue",
+  "11": "dialogue",
+  "12": "dialogue",
+  "13": "dialogue",
+  "14": "dialogue",
+  "15": "dialogue",
+  "16": "dialogue",
+  "17": "dialogue",
+  "18": "top",
+  "19": "dialogue",
+  "20": "dialogue",
+  "21": "dialogue",
+  "22": "dialogue",
+  "23": "dialogue",
+  "24": "dialogue",
+  "25": "dialogue",
+  "26": "dialogue",
+  "27": "dialogue",
+  "28": "dialogue",
+  "29": "sign",
+  "30": "sign",
+  "31": "dialogue",
+  "32": "dialogue",
+  "33": "dialogue",
+  "34": "dialogue",
+  "35": "dialogue",
+  "36": "dialogue",
+  "37": "dialogue",
+  "38": "dialogue",
+  "39": "dialogue",
+  "40": "dialogue",
+  "41": "dialogue",
+  "42": "dialogue",
+  "43": "dialogue",
+  "44": "dialogue",
+  "45": "dialogue",
+  "46": "dialogue",
+  "47": "dialogue",
+  "48": "dialogue",
+  "49": "dialogue",
+  "50": "dialogue",
+  "51": "dialogue",
+  "52": "dialogue",
+  "53": "dialogue",
+  "54": "dialogue",
+  "55": "dialogue",
+  "56": "dialogue",
+  "57": "dialogue",
+  "58": "dialogue",
+  "59": "dialogue",
+  "60": "dialogue",
+  "61": "dialogue",
+  "62": "dialogue",
+  "63": "dialogue",
+  "64": "dialogue",
+  "65": "dialogue",
+  "66": "dialogue",
+  "67": "dialogue",
+  "68": "dialogue",
+  "69": "dialogue",
+  "70": "dialogue",
+  "71": "dialogue",
+  "72": "dialogue",
+  "73": "dialogue",
+  "74": "dialogue",
+  "75": "dialogue",
+  "76": "dialogue",
+  "77": "dialogue",
+  "78": "comment",
+  "79": "sign",
+  "80": "top",
+  "81": "top",
+  "82": "dialogue",
+  "83": "dialogue",
+  "84": "dialogue",
+  "85": "dialogue",
+  "86": "dialogue",
+  "87": "dialogue",
+  "88": "dialogue",
+  "89": "dialogue",
+  "90": "dialogue",
+  "91": "dialogue",
+  "92": "dialogue",
+  "93": "dialogue",
+  "94": "dialogue",
+  "95": "dialogue",
+  "96": "dialogue",
+  "97": "dialogue",
+  "98": "dialogue",
+  "99": "dialogue",
+  "100": "dialogue",
+  "101": "dialogue",
+  "102": "dialogue",
+  "103": "dialogue",
+  "104": "dialogue",
+  "105": "dialogue",
+  "106": "dialogue",
+  "107": "dialogue",
+  "108": "dialogue",
+  "109": "dialogue",
+  "110": "dialogue",
+  "111": "dialogue",
+  "112": "dialogue",
+  "113": "dialogue",
+  "114": "dialogue",
+  "115": "dialogue",
+  "116": "dialogue",
+  "117": "dialogue",
+  "118": "dialogue",
+  "119": "dialogue",
+  "120": "dialogue",
+  "121": "dialogue",
+  "122": "dialogue",
+  "123": "dialogue",
+  "124": "dialogue",
+  "125": "dialogue",
+  "126": "dialogue",
+  "127": "dialogue",
+  "128": "dialogue",
+  "129": "dialogue",
+  "130": "dialogue",
+  "131": "dialogue",
+  "132": "dialogue",
+  "133": "dialogue",
+  "134": "dialogue",
+  "135": "dialogue",
+  "136": "top",
+  "137": "top",
+  "138": "dialogue",
+  "139": "dialogue",
+  "140": "dialogue",
+  "141": "dialogue",
+  "142": "dialogue",
+  "143": "dialogue",
+  "144": "dialogue",
+  "145": "dialogue",
+  "146": "dialogue",
+  "147": "dialogue",
+  "148": "dialogue",
+  "149": "dialogue",
+  "150": "dialogue",
+  "151": "dialogue",
+  "152": "dialogue",
+  "153": "dialogue",
+  "154": "dialogue",
+  "155": "dialogue",
+  "156": "dialogue",
+  "157": "dialogue",
+  "158": "dialogue",
+  "159": "dialogue",
+  "160": "dialogue",
+  "161": "dialogue",
+  "162": "dialogue",
+  "163": "dialogue",
+  "164": "dialogue",
+  "165": "dialogue",
+  "166": "dialogue",
+  "167": "dialogue",
+  "168": "dialogue",
+  "169": "dialogue",
+  "170": "dialogue",
+  "171": "dialogue",
+  "172": "dialogue",
+  "173": "dialogue",
+  "174": "dialogue",
+  "175": "dialogue",
+  "176": "dialogue",
+  "177": "dialogue",
+  "178": "dialogue",
+  "179": "dialogue",
+  "180": "dialogue",
+  "181": "dialogue",
+  "182": "comment",
+  "183": "dialogue",
+  "184": "dialogue",
+  "185": "dialogue",
+  "186": "dialogue",
+  "187": "dialogue",
+  "188": "dialogue",
+  "189": "dialogue",
+  "190": "dialogue",
+  "191": "dialogue",
+  "192": "dialogue",
+  "193": "dialogue",
+  "194": "dialogue",
+  "195": "dialogue",
+  "196": "dialogue",
+  "197": "dialogue",
+  "198": "dialogue",
+  "199": "dialogue",
+  "200": "dialogue",
+  "201": "dialogue",
+  "202": "dialogue",
+  "203": "dialogue",
+  "204": "dialogue",
+  "205": "dialogue",
+  "206": "dialogue",
+  "207": "dialogue",
+  "208": "dialogue",
+  "209": "dialogue",
+  "210": "dialogue",
+  "211": "dialogue",
+  "212": "dialogue",
+  "213": "dialogue",
+  "214": "dialogue",
+  "215": "dialogue",
+  "216": "dialogue",
+  "217": "dialogue",
+  "218": "dialogue",
+  "219": "dialogue",
+  "220": "dialogue",
+  "221": "dialogue",
+  "222": "dialogue",
+  "223": "dialogue",
+  "224": "dialogue",
+  "225": "dialogue",
+  "226": "dialogue",
+  "227": "dialogue",
+  "228": "dialogue",
+  "229": "dialogue",
+  "230": "dialogue",
+  "231": "dialogue",
+  "232": "dialogue",
+  "233": "dialogue",
+  "234": "dialogue",
+  "235": "dialogue",
+  "236": "dialogue",
+  "237": "dialogue",
+  "238": "dialogue",
+  "239": "dialogue",
+  "240": "dialogue",
+  "241": "dialogue",
+  "242": "dialogue",
+  "243": "dialogue",
+  "244": "dialogue",
+  "245": "dialogue",
+  "246": "dialogue",
+  "247": "dialogue",
+  "248": "dialogue",
+  "249": "dialogue",
+  "250": "dialogue",
+  "251": "dialogue",
+  "252": "dialogue",
+  "253": "dialogue",
+  "254": "dialogue",
+  "255": "dialogue",
+  "256": "dialogue",
+  "257": "dialogue",
+  "258": "dialogue",
+  "259": "dialogue",
+  "260": "dialogue",
+  "261": "dialogue",
+  "262": "dialogue",
+  "263": "dialogue",
+  "264": "dialogue",
+  "265": "dialogue",
+  "266": "dialogue",
+  "267": "dialogue",
+  "268": "dialogue",
+  "269": "dialogue",
+  "270": "dialogue",
+  "271": "dialogue",
+  "272": "dialogue",
+  "273": "dialogue",
+  "274": "dialogue",
+  "275": "dialogue",
+  "276": "dialogue",
+  "277": "dialogue",
+  "278": "dialogue",
+  "279": "dialogue",
+  "280": "dialogue",
+  "281": "dialogue",
+  "282": "dialogue",
+  "283": "dialogue",
+  "284": "dialogue",
+  "285": "dialogue",
+  "286": "dialogue",
+  "287": "dialogue",
+  "288": "dialogue",
+  "289": "dialogue",
+  "290": "dialogue",
+  "291": "dialogue",
+  "292": "dialogue",
+  "293": "dialogue",
+  "294": "dialogue",
+  "295": "dialogue",
+  "296": "dialogue",
+  "297": "dialogue",
+  "298": "dialogue",
+  "299": "dialogue",
+  "300": "dialogue",
+  "301": "dialogue",
+  "302": "dialogue",
+  "303": "dialogue",
+  "304": "dialogue",
+  "305": "comment",
+  "306": "dialogue",
+  "307": "dialogue",
+  "308": "dialogue",
+  "309": "dialogue",
+  "310": "dialogue",
+  "311": "dialogue",
+  "312": "dialogue",
+  "313": "dialogue",
+  "314": "dialogue",
+  "315": "dialogue",
+  "316": "dialogue",
+  "317": "dialogue",
+  "318": "dialogue",
+  "319": "sign",
+  "320": "sign",
+  "321": "sign",
+  "322": "sign",
+  "323": "sign",
+  "324": "sign",
+  "325": "sign",
+  "326": "sign",
+  "327": "sign",
+  "328": "sign",
+  "329": "sign",
+  "330": "sign",
+  "331": "dialogue",
+  "332": "comment",
+  "333": "song_original",
+  "334": "song_original",
+  "335": "song_original",
+  "336": "song_original",
+  "337": "song_original",
+  "338": "song_original",
+  "339": "song_original",
+  "340": "song_original",
+  "341": "song_original",
+  "342": "song_original",
+  "343": "song_original",
+  "344": "song_original",
+  "345": "song_original",
+  "346": "song_original",
+  "347": "song_original",
+  "348": "song_original",
+  "349": "song_original",
+  "350": "song_original",
+  "351": "song_original",
+  "352": "song_original",
+  "353": "song_original",
+  "354": "song_original",
+  "355": "song_original",
+  "356": "song_original",
+  "357": "comment",
+  "358": "song_original",
+  "359": "song_original",
+  "360": "song_original",
+  "361": "song_original",
+  "362": "song_original",
+  "363": "song_original",
+  "364": "song_original",
+  "365": "song_original",
+  "366": "song_original",
+  "367": "song_original",
+  "368": "song_original",
+  "369": "song_original",
+  "370": "song_original",
+  "371": "song_original",
+  "372": "song_original",
+  "373": "song_original",
+  "374": "song_original",
+  "375": "song_original",
+  "376": "song_original",
+  "377": "song_original",
+  "378": "song_original",
+  "379": "song_original",
+  "380": "song_original",
+  "381": "song_original",
+  "382": "comment",
+  "383": "song_translation",
+  "384": "song_translation",
+  "385": "song_translation",
+  "386": "song_translation",
+  "387": "song_translation",
+  "388": "song_translation",
+  "389": "song_translation",
+  "390": "song_translation",
+  "391": "song_translation",
+  "392": "song_translation",
+  "393": "song_translation",
+  "394": "song_translation",
+  "395": "song_translation",
+  "396": "song_translation",
+  "397": "song_translation",
+  "398": "song_translation",
+  "399": "song_translation",
+  "400": "song_translation",
+  "401": "song_translation",
+  "402": "song_translation",
+  "403": "song_translation",
+  "404": "song_translation",
+  "405": "song_translation",
+  "406": "song_translation",
+  "407": "comment",
+  "408": "song_translation",
+  "409": "song_translation",
+  "410": "song_translation",
+  "411": "song_translation",
+  "412": "song_translation",
+  "413": "song_translation",
+  "414": "song_translation",
+  "415": "song_translation",
+  "416": "song_translation",
+  "417": "song_translation",
+  "418": "song_translation",
+  "419": "song_translation",
+  "420": "song_translation",
+  "421": "song_translation",
+  "422": "song_translation",
+  "423": "song_translation",
+  "424": "song_translation",
+  "425": "song_translation",
+  "426": "song_translation",
+  "427": "song_translation",
+  "428": "song_translation",
+  "429": "song_translation",
+  "430": "song_translation",
+  "431": "song_translation",
+  "432": "comment",
+  "433": "song_original",
+  "434": "song_original",
+  "435": "song_original",
+  "436": "song_original",
+  "437": "song_original",
+  "438": "song_original",
+  "439": "song_original",
+  "440": "song_original",
+  "441": "song_original",
+  "442": "song_original",
+  "443": "song_original",
+  "444": "song_original",
+  "445": "song_original",
+  "446": "song_original",
+  "447": "song_original",
+  "448": "song_original",
+  "449": "song_original",
+  "450": "song_original",
+  "451": "song_original",
+  "452": "song_original",
+  "453": "song_original",
+  "454": "song_original",
+  "455": "song_original",
+  "456": "song_original",
+  "457": "song_original",
+  "458": "song_original",
+  "459": "song_original",
+  "460": "comment",
+  "461": "song_translation",
+  "462": "song_translation",
+  "463": "song_translation",
+  "464": "song_translation",
+  "465": "song_translation",
+  "466": "song_translation",
+  "467": "song_translation",
+  "468": "song_translation",
+  "469": "song_translation",
+  "470": "song_translation",
+  "471": "song_translation",
+  "472": "song_translation",
+  "473": "song_translation",
+  "474": "song_translation",
+  "475": "song_translation",
+  "476": "song_translation",
+  "477": "song_translation",
+  "478": "song_translation",
+  "479": "song_translation",
+  "480": "song_translation",
+  "481": "song_translation",
+  "482": "song_translation",
+  "483": "song_translation",
+  "484": "song_translation",
+  "485": "song_translation",
+  "486": "song_translation",
+  "487": "song_translation"
+ },
+ "doubts": [],
+ "analyzer": {}
+}
