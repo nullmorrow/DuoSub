@@ -136,6 +136,7 @@ class MainWindow(QMainWindow):
         self._pending_group = None
         self._editor_pending = self._source_pending = False
         self._group_nav_keys = set()
+        self._group_nav_last = 0.0         # time of the last navigation key event (held keys auto-repeat)
         self._group_select_timer = QTimer(self)
         self._group_select_timer.setSingleShot(True)
         self._group_select_timer.setInterval(150)
@@ -1120,10 +1121,11 @@ class MainWindow(QMainWindow):
                         self._group_nav_keys.discard(event.key())
                 else:
                     self._group_nav_keys.add(event.key())
+                    self._group_nav_last = time.monotonic()
                 if self._pending_group is not None:
                     self._group_select_timer.start()
-        if event.type() in (QEvent.Type.WindowDeactivate, QEvent.Type.FocusOut):
-            self._group_nav_keys.clear()
+        if event.type() in (QEvent.Type.WindowDeactivate, QEvent.Type.FocusOut, QEvent.Type.MouseButtonPress):
+            self._group_nav_keys.clear()       # a click means no navigation key is being held
         if event.type() == QEvent.Type.FocusIn and isinstance(obj, (QPlainTextEdit, QTextEdit, QLineEdit)):
             row = next((i for i, (_mid, edit) in enumerate(self.editor.cn_edits) if edit is obj), None)
             self._flush_group_selection()
@@ -2900,6 +2902,10 @@ class MainWindow(QMainWindow):
                 or self.tapper.active or any(pop.isVisible() for pop in self.findChildren(ReadingPopup)))
 
     def _settle_group_selection(self) -> None:
+        # A lost key release must not defer the selection forever: a held key keeps auto-repeating, so
+        # 1.5 s without any navigation key event (longer than the slowest Windows repeat delay) means released.
+        if self._group_nav_keys and time.monotonic() - self._group_nav_last > 1.5:
+            self._group_nav_keys.clear()
         if self._group_nav_keys:
             self._group_select_timer.start()
             return

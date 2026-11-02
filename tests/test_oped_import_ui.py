@@ -70,7 +70,7 @@ class ImportUI(unittest.TestCase):
         self.assertIn("已导入 1 首：试歌", self.window.statusBar().currentMessage())
 
     def test_real_file_copy_and_source_hash(self):
-        source = Path('./sample-media/OPED.txt')
+        source = Path('./sample-media/少女革命ウテナ/OPED.txt')
         if not source.exists():
             self.skipTest("真实 OPED.txt 不存在")
         before = hashlib.sha256(source.read_bytes()).hexdigest()

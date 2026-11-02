@@ -173,7 +173,7 @@ class LyricsMapTests(unittest.TestCase):
         self.assertFalse(kara.effective(doc, doc.members["cn"]).complete)
 
     def test_real_finished_utena_roundtrip_retap_export_and_unchanged_source(self):
-        source = Path('./sample-media/S02E003 - [LoliHouse] Shoujo Kakumei Utena - 16 [BDRip 1440x1080 HEVC-10bit AACx2].zh-Hant.ass')
+        source = Path('./sample-media/少女革命ウテナ/S02E003 - [LoliHouse] Shoujo Kakumei Utena - 16 [BDRip 1440x1080 HEVC-10bit AACx2].zh-Hant.ass')
         if not source.exists():
             self.skipTest("finished Utena material unavailable")
         before = hashlib.sha256(source.read_bytes()).hexdigest()

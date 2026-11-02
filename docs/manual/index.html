@@ -85,7 +85,7 @@ mark { background: var(--mark); color: inherit; }
 <div class="layout">
 <nav>
   <div class="brand">双语字幕工坊</div>
-  <div class="ver">DuoSub · 使用说明 · 对应版本 0.33.9</div>
+  <div class="ver">DuoSub · 使用说明 · 对应版本 0.33.10</div>
   <input id="q" type="search" placeholder="搜索功能、按键…（例如：读音、K、F10）" autocomplete="off">
   <ol id="toc">
     <li><a href="#start">快速开始</a></li>
@@ -1221,6 +1221,7 @@ mark { background: var(--mark); color: inherit; }
 <p class="ctx">详细记录见项目里的 <code>CHANGELOG.md</code>。</p>
 <table>
   <tr><th>版本</th><th>新功能</th></tr>
+  <tr><td>0.33.10</td><td>修复快速连按方向键后，点选列表中的组偶尔不切换编辑区和画面的问题。</td></tr>
   <tr><td>0.33.9</td><td>通用本地组件路径与不入Git的机器配置，提交和发布前隐私检查。</td></tr>
   <tr><td>0.33.8（2026-10-19）</td><td>Furigana按分词单位居中和限宽；同词内部读音段先整体排版，再与邻词避让，避免其中一段单独被压瘦。要分别排版时使用分词工具拆词，预览与发布一致。</td></tr>
   <tr><td>0.33.7（2026-10-19）</td><td>同一词的多段长振假名放不下时整体居中，修复整体偏左；预览与发布共用此规则。</td></tr>

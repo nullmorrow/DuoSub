@@ -78,6 +78,28 @@ class ReviewR7(unittest.TestCase):
                     self.assertEqual(heavy.call_count, 1)
                     self.assertEqual(w.editor.group.id, w.current_gid)
 
+    def test_lost_key_release_never_defers_selection_forever(self):
+        # Walkthrough 2026-10-18: after a burst of synthetic arrow presses one release was lost and
+        # clicking a row no longer updated the panels until the next key press.
+        w = self.window
+        w.select_group('4')
+        w.table.setFocus()
+        with patch.object(w.editor, 'set_group', wraps=w.editor.set_group) as heavy:
+            QTest.keyPress(w.table, Qt.Key.Key_Down)       # its release never arrives
+            QTest.qWait(200)
+            self.assertEqual(heavy.call_count, 0)           # still treated as held
+            w._group_nav_last -= 2.0                        # no auto-repeat for longer than any repeat delay
+            QTest.qWait(200)
+            self.assertEqual(heavy.call_count, 1)
+            self.assertEqual(w.editor.group.id, '5')
+        QTest.keyPress(w.table, Qt.Key.Key_Down)            # another lost release …
+        with patch.object(w.editor, 'set_group', wraps=w.editor.set_group) as heavy:
+            pos = w.table.visualRect(w.proxy.index(1, 4)).center()
+            QTest.mouseClick(w.table.viewport(), Qt.MouseButton.LeftButton, pos=pos)   # … ended by a click
+            QTest.qWait(200)
+            self.assertEqual(heavy.call_count, 1)
+        self.assertEqual(w.editor.group.id, '1')
+
     def test_typing_popup_inline_transform_and_tapper_never_defer(self):
         w = self.window
         edit = QLineEdit(w)
