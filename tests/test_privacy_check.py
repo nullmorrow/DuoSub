@@ -15,6 +15,18 @@ class PrivacyCheck(unittest.TestCase):
         email = 'person' + '@' + 'example.test'
         self.assertIn('email address', checker.content_issues('README.md', email.encode()))
 
+    def test_only_ai_co_author_trailers_may_carry_a_service_email(self):
+        service = 'noreply' + '@' + 'anthropic.com'
+        other = 'person' + '@' + 'example.test'
+        trailers = f'Fix\n\nCo-Authored-By: Claude Opus 5.5 <{service}>\nCo-Authored-By: GPT-6.1 Sol (OpenAI Codex)\n'
+        self.assertEqual(checker.content_issues('commit-message.txt', trailers.encode()), [])
+        for text in (f'Fix\n\nContact {service} for details\n',                       # not a trailer line
+                     f'Fix\n\nCo-Authored-By: Someone <{other}>\n',                  # not the allowed address
+                     f'Fix\n\nCo-Authored-By: Claude <{service}> and {other}\n'):    # extra address on the line
+            with self.subTest(text=text):
+                self.assertIn('email address', checker.content_issues('commit-message.txt', text.encode()))
+        self.assertIn('email address', checker.content_issues('README.md', trailers.encode()))   # files stay strict
+
     def test_personal_home_paths_are_rejected(self):
         for text in ('C:' + '/Users/' + 'person/data', '/' + 'home/' + 'person/data', '/' + 'Users/' + 'person/data',
                      'C:' + '/Users/' + '用户名/data', '/' + 'home/' + '使用者/data'):

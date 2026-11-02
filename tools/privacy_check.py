@@ -12,6 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_NAME = 'nullmorrow'
 PUBLIC_EMAIL = '344519723+nullmorrow@users.noreply.github.com'
 EMAIL = re.compile(r'(?i)\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b')
+# Commit messages may credit AI co-authors: only this exact service address, only on a whole trailer line.
+CO_AUTHOR = re.compile(r'(?im)^Co-Authored-By: [^<>@\n]+ <noreply@anthropic\.com>[ \t]*$')
 HOME = re.compile(r'(?i)(?:[a-z]:[/\\]+Users[/\\]+(?!Public\b|Default\b)[\w.-]+|/(?:home|Users)/[\w.-]+)')
 SECRET = re.compile(r'(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}|sk-(?:proj-|svcacct-)?[A-Za-z0-9_-]{20,}|AKIA[A-Z0-9]{16}|-----BEGIN (?:RSA |DSA |EC |OPENSSH )?PRIVATE KEY-----)')
 PRIVATE = re.compile(r'(?i)^(?:Projects|history|migration|baseline|reports)(?:/|$)|(?:^|/)(?:cache|__pycache__|journal|exports|\.git)(?:/|$)|(?:^|/)(?:AGENTS\.md|WORKLOG\.md|HANDOFF[^/]*|MIGRATION[^/]*|.*\.local\.json|\.env(?:\..*)?|.*\.(?:sqlite3?|db|log|wav|mkv|mp4|dll|exe|zip|bundle|lnk))$')
@@ -41,7 +43,8 @@ def content_issues(name: str, data: bytes, blocked=()) -> list[str]:
         if not name.startswith('assets/') or Path(name).suffix not in ('.ico', '.png'):
             issues.append('unreviewed binary')
         text = data.decode('latin-1')
-    if any(match.group() != PUBLIC_EMAIL for match in EMAIL.finditer(text)):
+    scanned = CO_AUTHOR.sub('', text) if name == 'commit-message.txt' else text
+    if any(match.group() != PUBLIC_EMAIL for match in EMAIL.finditer(scanned)):
         issues.append('email address')
     if HOME.search(text):
         issues.append('personal home path')
