@@ -205,12 +205,30 @@ class HelpTests(unittest.TestCase):
         self.assertIsNone(self.window._help_message_anchor)
 
     def test_about_uses_app_version(self):
+        from subkit_app.crash_log import log_dir
+
         def inspect(box):
             self.assertIn("双语字幕工坊（DuoSub）" + APP_VERSION, box.text())
-            self.assertEqual([b.text() for b in box.buttons()], ["关闭"])
+            self.assertIn(f"运行日志：{log_dir()}", box.text())
+            self.assertEqual(sorted(b.text() for b in box.buttons()), ["关闭", "打开日志文件夹"])
             self.assertEqual(box._button_row.help_button.text(), "帮助")
+            self.assertEqual(box.help_anchor, "logs")
         with patch.object(QMessageBox, "exec", inspect):
             self.window.show_about()
+
+    def test_about_opens_the_log_folder_only_from_its_button(self):
+        def press(name):
+            def run(box):
+                box.clickedButton = lambda: next(b for b in box.buttons() if b.text() == name)
+            return run
+        with tempfile.TemporaryDirectory() as tmp, patch.dict(os.environ, {"SUBKIT_LOG_DIR": tmp}), \
+                patch("subkit_app.mainwindow.QDesktopServices.openUrl") as opened:
+            with patch.object(QMessageBox, "exec", press("关闭")):
+                self.window.show_about()
+            opened.assert_not_called()
+            with patch.object(QMessageBox, "exec", press("打开日志文件夹")):
+                self.window.show_about()
+            self.assertEqual(Path(opened.call_args.args[0].toLocalFile()), Path(tmp))
 
     def test_auto_results_f1_and_new_menu_anchors(self):
         from subkit_app.views.kalign_result import KalignResultDialog

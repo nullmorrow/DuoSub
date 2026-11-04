@@ -23,6 +23,8 @@ from subkit.core.workspace import Episode, Project
 from subkit.model.document import Group
 from subkit.proc import CancelledError, KillableRun
 
+from . import pool as job_pool
+
 
 class _JobSignals(QObject):
     done = Signal(int, str, object, object)       # revision, path, AssDocument, report (with owners)
@@ -242,7 +244,7 @@ class EpisodeSession(QObject):
         job, self._preview_job = self._preview_job, None
         if job is not None:
             job.cancel()
-            if self.pool.tryTake(job):
+            if job_pool.try_take(job, self.pool):
                 job.finished.set()
             job.finished.wait(2.0)
 
@@ -252,7 +254,7 @@ class EpisodeSession(QObject):
         job = self._preview_job
         if job is not None:
             job.cancel()
-            if self.pool.tryTake(job):
+            if job_pool.try_take(job, self.pool):
                 job.finished.set()
             if not job.finished.wait(2.0):
                 return False
@@ -284,7 +286,7 @@ class EpisodeSession(QObject):
         self._preview_job = job
         job.signals.done.connect(self._preview_done)
         job.signals.failed.connect(self._preview_failed)
-        self.pool.start(job)
+        job_pool.start(job, pool=self.pool)
 
     @Slot(int, str, object, object)
     def _preview_done(self, revision: int, path: str, ass, rep) -> None:

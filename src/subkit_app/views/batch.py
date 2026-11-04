@@ -7,7 +7,7 @@ import subprocess
 import threading
 from typing import Callable
 
-from PySide6.QtCore import QObject, QRunnable, QThreadPool, QTimer, Qt, Signal, Slot
+from PySide6.QtCore import QObject, QRunnable, QTimer, Qt, Signal, Slot
 from PySide6.QtWidgets import (QCheckBox, QComboBox, QDialog, QFileDialog, QFormLayout, QHBoxLayout,
                                QHeaderView, QLabel, QLineEdit, QMessageBox, QPlainTextEdit,
                                QPushButton, QTableWidget, QTableWidgetItem, QVBoxLayout)
@@ -15,6 +15,7 @@ from PySide6.QtWidgets import (QCheckBox, QComboBox, QDialog, QFileDialog, QForm
 from subkit.core.batch import BatchOptions, BatchResult, run_season, scan_season, song_families
 from subkit.ass.document import AssDocument
 from .. import help as app_help
+from .. import pool as job_pool
 
 MODE_LABELS = {
     "5.1": "自动导入整季…",
@@ -221,7 +222,7 @@ class BatchDialog(QDialog):
         if not scan:
             self._run_job = job
         self._timer.start()
-        QThreadPool.globalInstance().start(job)
+        job_pool.start(job)
 
     def scan(self) -> None:
         if self._run_job is not None:

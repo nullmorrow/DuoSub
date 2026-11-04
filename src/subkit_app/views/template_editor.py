@@ -17,7 +17,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any, Optional
 
-from PySide6.QtCore import QObject, QRunnable, Qt, QThreadPool, QTimer, Signal
+from PySide6.QtCore import QObject, QRunnable, Qt, QTimer, Signal
 from PySide6.QtGui import QColor, QFontDatabase, QLinearGradient, QPainter, QPixmap
 from PySide6.QtWidgets import (QButtonGroup, QCheckBox, QColorDialog, QComboBox, QDialog, QDialogButtonBox,
                                QDoubleSpinBox, QFileDialog, QFormLayout, QGroupBox, QHBoxLayout, QLabel, QPushButton,
@@ -26,6 +26,7 @@ from PySide6.QtWidgets import (QButtonGroup, QCheckBox, QColorDialog, QComboBox,
 from subkit import templates as T
 from subkit.proc import CancelledError, KillableRun
 from subkit.languages import JAPANESE_ONLY, has_japanese, lane_label
+from .. import pool as job_pool
 
 PREVIEW_W = 800
 MEASURE_CACHE = Path(tempfile.gettempdir()) / "subkit_template_measure.sqlite3"
@@ -820,7 +821,7 @@ class TemplateEditor(QWidget):
         job.signals.failed.connect(self._on_job_failed)
         self._jobs = getattr(self, "_jobs", {})
         self._jobs[self._ticket] = (job, on_done)
-        QThreadPool.globalInstance().start(job)
+        job_pool.start(job)
 
     def _on_job_done(self, ticket: int, res) -> None:
         if self._closed:
@@ -860,7 +861,7 @@ class TemplateEditor(QWidget):
         deadline = time.monotonic() + 2.0
         for job in jobs:
             job.cancel()
-            if QThreadPool.globalInstance().tryTake(job):
+            if job_pool.try_take(job):
                 job.finished.set()
         for job in jobs:
             job.finished.wait(max(0.0, deadline - time.monotonic()))

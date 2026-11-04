@@ -114,7 +114,7 @@ class ReviewF3(unittest.TestCase):
         self.session.editor.edit_characters(lambda b:b.resolve_pending('pending',self.ch.id))
         with patch.object(self.session.pool,'start') as start:
             self.session._start_preview()
-            job=start.call_args.args[0]
+            job=start.call_args.args[0].job
             self.assertTrue(self.session.layout_current(job.revision))
             job.finished.set()
         with patch.object(self.session,'_start_preview') as start:

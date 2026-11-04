@@ -60,10 +60,16 @@ def main(argv: list[str] | None = None) -> int:
     f.setPointSizeF(10)
     app.setFont(f)
     app.setStyle("Fusion")
+    from . import APP_VERSION
+    from .crash_log import install as install_crash_log
+
+    crash_log = install_crash_log(app, APP_VERSION)
 
     def excepthook(t, v, tb):
         msg = "".join(traceback.format_exception(t, v, tb))
-        sys.stderr.write(msg)
+        crash_log.exception(t, v, tb)
+        if sys.stderr is not None:            # pythonw has no console
+            sys.stderr.write(msg)
         try:
             # Parent to the active window so the box is never hidden behind the main window.
             parent = QApplication.activeModalWidget() or QApplication.activeWindow()

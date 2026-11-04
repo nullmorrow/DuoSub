@@ -22,7 +22,7 @@ import threading
 import time
 from typing import Any, Optional
 
-from PySide6.QtCore import QObject, QPoint, QPointF, QRect, QRunnable, Qt, QThreadPool, QTimer, Signal
+from PySide6.QtCore import QObject, QPoint, QPointF, QRect, QRunnable, Qt, QTimer, Signal
 from PySide6.QtGui import QFont, QFontMetricsF, QKeyEvent
 from PySide6.QtWidgets import QApplication, QFrame, QLabel, QLineEdit, QVBoxLayout, QPushButton
 
@@ -31,6 +31,7 @@ from subkit.core.layout_index import LayoutIndex, LineGeom, Rect
 from subkit.textutil import is_kanji
 from subkit.proc import CancelledError, KillableRun
 
+from . import pool as job_pool
 from .player.mpv import MpvWidget
 from .transform_tool import Drag, TransformMember, TransformTool
 
@@ -461,7 +462,7 @@ class WatchController(QObject):
                 job.target_serial = self.serial + 1
             else:
                 job.cancel()
-                if QThreadPool.globalInstance().tryTake(job):
+                if job_pool.try_take(job):
                     job.finished.set()
                     self._geometry_jobs.pop(signals)
         self._job_running = any(not job.cancelled for job in self._geometry_jobs.values())
@@ -490,7 +491,7 @@ class WatchController(QObject):
         job.signals.progress.connect(self._warm_progress)
         job.signals.done.connect(self._warm_done)
         self._warm = job
-        QThreadPool.globalInstance().start(job, -1)          # below previews and clicks
+        job_pool.start(job, -1)          # below previews and clicks
 
     def _warm_progress(self, done: int, total: int) -> None:
         if self._warm is not None and self.sender() is self._warm.signals:
@@ -526,7 +527,7 @@ class WatchController(QObject):
             job.cancel()
             # A queued job owns no resources; remove it instead of waiting for a
             # busy global pool. Running jobs signal only after probe/DB cleanup.
-            if QThreadPool.globalInstance().tryTake(job):
+            if job_pool.try_take(job):
                 job.finished.set()
         for job in jobs:
             job.finished.wait(max(0.0, deadline - time.monotonic()))
@@ -592,7 +593,7 @@ class WatchController(QObject):
         job.signals.coarse.connect(self._geometry_coarse)
         job.signals.done.connect(self._geometry_done)
         self._geometry_jobs[job.signals] = job
-        QThreadPool.globalInstance().start(job, 1 if active else 0)
+        job_pool.start(job, 1 if active else 0)
 
     def _publish_geometry(self, serial: int, job, geo: dict, anchors: dict) -> None:
         if self._measuring_stopped or job.cancelled or serial != job.serial or job.target_serial != self.serial:

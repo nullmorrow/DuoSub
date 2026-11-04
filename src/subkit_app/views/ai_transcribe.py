@@ -14,6 +14,7 @@ from PySide6.QtWidgets import (QAbstractItemView, QCheckBox, QComboBox, QDialog,
                               QLineEdit, QPlainTextEdit, QProgressBar, QPushButton, QSpinBox, QTreeWidget,
                               QTreeWidgetItem, QVBoxLayout)
 
+from .. import pool as job_pool
 from ..help import dialog_buttons
 from ..listening_job import ListeningJob, SemanticJob
 from .group_table import fmt_time
@@ -262,7 +263,7 @@ class ListeningDialog(QDialog):
         self._elapsed_seconds = 0
         self._state("正在听译…", busy=True, detail="正在准备音频；首次加载模型可能较慢，请稍候。")
         self._enabled()
-        QThreadPool.globalInstance().start(self.job)
+        job_pool.start(self.job, pool=QThreadPool.globalInstance())
 
     def more_translations(self):
         running = self.job is not None and not self.job.finished.is_set()
@@ -287,7 +288,7 @@ class ListeningDialog(QDialog):
         self._state("正在生成更多翻译建议…", busy=True,
                     detail="保留原候选和编辑文字；只生成新的说法，不重新识别音频。")
         self._enabled()
-        QThreadPool.globalInstance().start(self.job)
+        job_pool.start(self.job, pool=QThreadPool.globalInstance())
 
     def rerun(self):
         if self._invalid or self._pending_done is not None:

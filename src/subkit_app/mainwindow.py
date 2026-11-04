@@ -37,6 +37,7 @@ from subkit.languages import DEFAULT_LANGUAGES, JAPANESE_ONLY, has_japanese, lan
 from .player.mpv import MpvWidget
 from . import APP_VERSION
 from . import help as app_help
+from . import pool as job_pool
 from .actions import ActionRegistry
 from .action_hub import ActionHub
 from .session import EpisodeSession
@@ -1255,15 +1256,23 @@ class MainWindow(QMainWindow):
         app_help.open_manual(app_help.resolve_anchor(self))
 
     def show_about(self) -> None:
+        from .crash_log import log_dir
+
+        logs = log_dir()
         box = QMessageBox(self)
         box.setWindowTitle("关于双语字幕工坊")
         box.setText(f"双语字幕工坊（DuoSub）{APP_VERSION}\n"
                     "原名 SubKit。原生双语字幕编辑器：配对、调轴、读音、K 轴。\n"
-                    f"使用说明：{app_help.manual_path()}")
-        box.help_anchor = "project"
+                    f"使用说明：{app_help.manual_path()}\n"
+                    f"运行日志：{logs}")
+        box.help_anchor = "logs"
+        open_logs = box.addButton("打开日志文件夹", QMessageBox.ButtonRole.ActionRole)
         box.addButton("关闭", QMessageBox.ButtonRole.RejectRole)
         app_help.dialog_buttons(box)
         box.exec()
+        if box.clickedButton() is open_logs:
+            logs.mkdir(parents=True, exist_ok=True)
+            QDesktopServices.openUrl(QUrl.fromLocalFile(str(logs)))
 
     def _help_message(self, anchor, fn, *args, **kwargs):
         previous = getattr(self, "_help_message_anchor", None)
@@ -2244,7 +2253,7 @@ class MainWindow(QMainWindow):
         job.signals.cancelled.connect(self._episode_cancelled)
         self._episode_progress.show()
         self._episode_progress.activateWindow()
-        QThreadPool.globalInstance().start(job)
+        job_pool.start(job)
 
     @Slot(str)
     def _episode_step(self, text) -> None:
@@ -2831,7 +2840,7 @@ class MainWindow(QMainWindow):
 
         timer.timeout.connect(poll)
         self.statusBar().showMessage(text)
-        QThreadPool.globalInstance().start(job)
+        job_pool.start(job)
         timer.start()
         try:
             dialog.exec()

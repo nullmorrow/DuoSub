@@ -85,7 +85,7 @@ mark { background: var(--mark); color: inherit; }
 <div class="layout">
 <nav>
   <div class="brand">双语字幕工坊</div>
-  <div class="ver">DuoSub · 使用说明 · 对应版本 0.33.10</div>
+  <div class="ver">DuoSub · 使用说明 · 对应版本 0.33.11</div>
   <input id="q" type="search" placeholder="搜索功能、按键…（例如：读音、K、F10）" autocomplete="off">
   <ol id="toc">
     <li><a href="#start">快速开始</a></li>
@@ -1216,11 +1216,22 @@ mark { background: var(--mark); color: inherit; }
 <p>不会。工程里有原字幕的只读副本，所有修改都在工程文档里，导出写新文件。</p>
 </section>
 
+<section id="logs">
+<h2>运行日志（死机、卡顿排查）</h2>
+<p>程序每次运行都在本机写运行日志，位置见「帮助 → 关于双语字幕工坊」，按「打开日志文件夹」直接打开。日志放在系统盘（通常是 <code>%LOCALAPPDATA%\DuoSub\logs</code>），工程所在的硬盘出问题时也能留下记录。日志只在本机，不会上传。</p>
+<ul>
+  <li><code>duosub.log</code>：每次启动和正常退出各一行；未处理的程序错误；每分钟一行运行状态（内存、句柄、界面对象数和这一分钟里界面最长卡住多久）。界面卡住 5 秒以上另记一行。如果上次没有正常退出（崩溃、卡死后强制关机、断电），下次启动会注明，并抄下上次最后一条记录。</li>
+  <li><code>fault.log</code>：程序崩溃，或界面 30 秒没有响应时，所有线程正在执行的位置。</li>
+</ul>
+<p>遇到越来越慢、卡死或闪退，先别删日志，把这两个文件交给开发者。文件超过 2 MB 时，下次启动会改名为 <code>.1</code>，只保留一份旧的。</p>
+</section>
+
 <section id="changes">
 <h2>版本记录</h2>
 <p class="ctx">详细记录见项目里的 <code>CHANGELOG.md</code>。</p>
 <table>
   <tr><th>版本</th><th>新功能</th></tr>
+  <tr><td>0.33.11</td><td>修复长时间编辑、播放后越来越慢直至卡死（后台排版结果不再滞留内存）。新增运行日志：记录程序错误、崩溃和界面无响应时的位置，每分钟记一次内存和界面卡顿；「关于」窗口显示日志位置并可打开文件夹。</td></tr>
   <tr><td>0.33.10</td><td>修复快速连按方向键后，点选列表中的组偶尔不切换编辑区和画面的问题。</td></tr>
   <tr><td>0.33.9</td><td>通用本地组件路径与不入Git的机器配置，提交和发布前隐私检查。</td></tr>
   <tr><td>0.33.8（2026-10-19）</td><td>Furigana按分词单位居中和限宽；同词内部读音段先整体排版，再与邻词避让，避免其中一段单独被压瘦。要分别排版时使用分词工具拆词，预览与发布一致。</td></tr>

@@ -16,6 +16,7 @@ from PySide6.QtWidgets import (QApplication, QComboBox, QCheckBox, QDialog, QDou
 from subkit.autotime import TimingMap
 from subkit.proc import CancelledError
 from subkit.core.autotime_doc import Settings, plan
+from .. import pool as job_pool
 from ..help import dialog_buttons, open_manual
 from .group_table import fmt_time
 from .passages import _modal, _label
@@ -352,7 +353,7 @@ class AutoTimeDetailsDialog(QDialog):
         _prune_live()
         _LIVE.append(job)
         job.signals.finished.connect(self._plan_finished, Qt.ConnectionType.QueuedConnection)
-        QThreadPool.globalInstance().start(job)
+        job_pool.start(job)
 
     @Slot(int, object, str)
     def _plan_finished(self, generation, p, error) -> None:

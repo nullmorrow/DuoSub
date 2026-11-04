@@ -23,7 +23,7 @@ class WatchGeometry(unittest.TestCase):
         self.watch.upcoming = Mock(return_value=[1])
         self.pool = Mock()
         self.pool.tryTake.return_value = True
-        p = patch("subkit_app.watch.QThreadPool.globalInstance", return_value=self.pool)
+        p = patch("subkit_app.pool.QThreadPool.globalInstance", return_value=self.pool)
         p.start()
         self.addCleanup(p.stop)
         self.addCleanup(self.dispose)
@@ -36,10 +36,10 @@ class WatchGeometry(unittest.TestCase):
 
     def jobs(self):
         self.watch.request_geometry()
-        ahead = self.pool.start.call_args.args[0]
+        ahead = self.pool.start.call_args.args[0].job
         self.watch.active.return_value = [0]
         self.watch.request_geometry()
-        foreground = self.pool.start.call_args.args[0]
+        foreground = self.pool.start.call_args.args[0].job
         return ahead, foreground
 
     def complete(self, job, geo, anchors):
@@ -78,7 +78,7 @@ class WatchGeometry(unittest.TestCase):
         self.watch.serial += 1
         self.watch.upcoming.return_value = []
         self.watch.request_geometry()
-        current = self.pool.start.call_args.args[0]
+        current = self.pool.start.call_args.args[0].job
         self.assertEqual(current.serial, self.watch.serial)
         self.complete(ahead, {1: "stale"}, {1: {"x": -1}})
         self.complete(foreground, {0: "stale"}, {0: {"x": -1}})
@@ -142,12 +142,12 @@ class WatchGeometry(unittest.TestCase):
     def test_mixed_job_reuses_only_unchanged_events_and_visible_change_overtakes(self):
         self.watch.upcoming.return_value = [0, 1]
         self.watch.request_geometry()
-        old = self.pool.start.call_args.args[0]
+        old = self.pool.start.call_args.args[0].job
         ass = copy.deepcopy(self.watch.ass)
         ass.events[0].text = "edited"
         self.watch.active.return_value = [0]
         self.preview(ass)
-        current = self.pool.start.call_args.args[0]
+        current = self.pool.start.call_args.args[0].job
         self.assertEqual(old.reusable_indices, {1})
         self.assertFalse(old.cancelled)
         self.assertEqual(current.indices, [0])
@@ -164,7 +164,7 @@ class WatchGeometry(unittest.TestCase):
     def test_repeated_previews_remap_transitively_without_reviving_changed_events(self):
         self.watch.upcoming.return_value = [0, 1]
         self.watch.request_geometry()
-        old = self.pool.start.call_args.args[0]
+        old = self.pool.start.call_args.args[0].job
         original = copy.deepcopy(self.watch.ass)
         changed = copy.deepcopy(original)
         changed.events[0].text = "edited"
@@ -180,7 +180,7 @@ class WatchGeometry(unittest.TestCase):
             with self.subTest(change=change):
                 self.watch.upcoming.return_value = [1]
                 self.watch.request_geometry()
-                old = self.pool.start.call_args.args[0]
+                old = self.pool.start.call_args.args[0].job
                 ass, owners = copy.deepcopy(self.watch.ass), copy.deepcopy(self.watch.owners)
                 if change == "styles":
                     ass.styles = copy.deepcopy(fixtures.AssDocument.parse(fixtures.default_styles_ass()).styles)
@@ -207,19 +207,19 @@ class WatchGeometry(unittest.TestCase):
         self.watch.request_geometry()
         old_jobs = []
         for i in range(5):
-            old_jobs.append(self.pool.start.call_args.args[0])
+            old_jobs.append(self.pool.start.call_args.args[0].job)
             ass = copy.deepcopy(self.watch.ass)
             ass.events[0].text = f"edit {i}"
             self.preview(ass)
             self.assertEqual(len(self.watch._geometry_jobs), 1)
         self.assertTrue(all(j.cancelled and j.finished.is_set() for j in old_jobs))
-        newest = self.pool.start.call_args.args[0]
+        newest = self.pool.start.call_args.args[0].job
         self.complete(newest, {0: "newest"}, {})
         self.assertEqual(self.watch.geo, {0: "newest"})
 
     def test_cancel_running_job_retains_stop_tracking_until_resource_closure(self):
         self.watch.request_geometry()
-        old = self.pool.start.call_args.args[0]
+        old = self.pool.start.call_args.args[0].job
         self.pool.tryTake.return_value = False
         ass = copy.deepcopy(self.watch.ass)
         ass.events[1].text = "changed"
@@ -236,7 +236,7 @@ class WatchGeometry(unittest.TestCase):
         self.watch.active.return_value = [0]
         self.watch.upcoming.return_value = []
         self.watch.request_geometry()
-        old = self.pool.start.call_args.args[0]
+        old = self.pool.start.call_args.args[0].job
         self.watch._deferred_click = Mock()
         self.watch._pending = ("_deferred_click", ("click",))
         self.preview()
@@ -246,7 +246,7 @@ class WatchGeometry(unittest.TestCase):
 
     def test_done_queued_before_preview_can_still_publish_unchanged_result(self):
         self.watch.request_geometry()
-        old = self.pool.start.call_args.args[0]
+        old = self.pool.start.call_args.args[0].job
         old.finished.set()
         self.preview()
         self.complete(old, {1: "finished before preview"}, {})

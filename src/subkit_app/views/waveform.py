@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import Optional
 
 import numpy as np
-from PySide6.QtCore import QEvent, QObject, QPointF, QRect, QRectF, QRunnable, QSize, Qt, QThreadPool, Signal
+from PySide6.QtCore import QEvent, QObject, QPointF, QRect, QRectF, QRunnable, QSize, Qt, Signal
 from PySide6.QtGui import QAction, QActionGroup, QBrush, QColor, QFont, QImage, QPainter, QPainterPath, QPen, QPolygonF
 from PySide6.QtWidgets import (QButtonGroup, QComboBox, QDialog, QDialogButtonBox, QFormLayout, QFrame, QHBoxLayout, QLayout, QLabel, QMenu, QSlider, QSpinBox, QToolButton, QVBoxLayout, QWidget, QWidgetAction)
 
@@ -32,7 +32,9 @@ from subkit.autotime import (HINT_SEARCH_MS, _snap_activity, calibrate_hint_padd
                             hint_speech_edges, speech_segments, suggest_group_times)
 from subkit.model.document import Document
 
-BLOCK_MS = HOP_MS        # one peak pair / feature frame per 10 ms
+from .. import pool as job_pool
+
+BLOCK_MS = HOP_MS       # one peak pair / feature frame per 10 ms
 DETAIL_SPAN_MS = 6000
 START_COLOR = QColor("#3d8bfd")
 END_COLOR = QColor("#ff5c5c")
@@ -373,11 +375,11 @@ class WaveformView(QWidget):
         # Direct QObject slots preserve queued delivery after the worker finishes.
         job.signals.done.connect(self._loaded)
         job.signals.failed.connect(self._fail)
-        QThreadPool.globalInstance().start(job)
+        job_pool.start(job)
         kj = KeyframeJob(Path(video), cache, generation)
         kj.signals.done.connect(self._keyframes_loaded)
         self._jobs = [job, kj]
-        QThreadPool.globalInstance().start(kj)
+        job_pool.start(kj)
         self.update()
 
     def retry_audio(self) -> None:
@@ -399,7 +401,7 @@ class WaveformView(QWidget):
         deadline = time.monotonic() + 2.0
         for job in jobs:
             job.cancel()
-            if QThreadPool.globalInstance().tryTake(job):
+            if job_pool.try_take(job):
                 if isinstance(job, SpectrogramJob):
                     job.samples = None
                 job.finished.set()
@@ -509,7 +511,7 @@ class WaveformView(QWidget):
             job.signals.failed.connect(self._samples_fail)
             self._sample_job = job
             self._jobs.append(job)
-            QThreadPool.globalInstance().start(job)
+            job_pool.start(job)
         key = self._visible_detail_key()
         if key == self._detail_key:
             return
@@ -518,7 +520,7 @@ class WaveformView(QWidget):
         if self._detail_job is not None:
             job, self._detail_job = self._detail_job, None
             job.cancel()
-            if QThreadPool.globalInstance().tryTake(job):
+            if job_pool.try_take(job):
                 job.samples = None
                 job.finished.set()
         if key is None or key in self._detail_cache:
@@ -528,7 +530,7 @@ class WaveformView(QWidget):
         job.signals.failed.connect(self._detail_fail)
         self._detail_job = job
         self._jobs.append(job)
-        QThreadPool.globalInstance().start(job)
+        job_pool.start(job)
 
     def _samples_loaded(self, samples: np.ndarray, generation: int) -> None:
         if generation != self._load_generation:

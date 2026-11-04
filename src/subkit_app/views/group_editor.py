@@ -321,8 +321,16 @@ class SpeakerCombo(QComboBox):
         self.setMinimumWidth(120)
         self.setMaximumWidth(200)
         self.setToolTip("搜索名字、别名")
-        self.activated.connect(lambda index: self.chosen.emit(self.itemData(index)))
+        # Bound methods, not lambdas: PySide keeps a lambda that captures its own sender (and the combo with it)
+        # alive after the widget is deleted, and the editor rebuilds these combos for every group.
+        self.activated.connect(self._activated)
         self.refresh_choices(book, member, recent)
+
+    def _activated(self, index: int) -> None:
+        self.chosen.emit(self.itemData(index))
+
+    def _completed(self, index: QModelIndex) -> None:
+        self.chosen.emit(index.data(Qt.ItemDataRole.UserRole))
 
     def refresh_choices(self, book, member, recent):
         model = QStandardItemModel(self)
@@ -353,7 +361,7 @@ class SpeakerCombo(QComboBox):
         # QComboBox's built-in completion handler interprets the search-role text as
         # a displayed option and also emits activated. Resolve the stable ID once.
         completer.activated[QModelIndex].disconnect()
-        completer.activated[QModelIndex].connect(lambda index: self.chosen.emit(index.data(Qt.ItemDataRole.UserRole)))
+        completer.activated[QModelIndex].connect(self._completed)
         cid = (member.speaker or {}).get("character")
         index = self.findData(cid)
         self.setCurrentIndex(index if index >= 0 else self.findData(None))
@@ -795,9 +803,14 @@ class GroupEditor(QWidget):
     def _speaker_combo(self, member):
         combo = SpeakerCombo(self.character_book, member, self.recent_speakers)
         combo.setProperty("member_id", member.id)
-        combo.chosen.connect(lambda cid: self.speakerRequested.emit(combo.property("member_id"), cid, self.whole_speaker.isChecked()))
+        combo.chosen.connect(self._speaker_chosen)
         self.speaker_combos[member.id] = combo
         return combo
+
+    def _speaker_chosen(self, cid) -> None:
+        combo = self.sender()
+        if combo is not None:
+            self.speakerRequested.emit(combo.property("member_id"), cid, self.whole_speaker.isChecked())
 
     def _char_clicked(self, i: int, pos: QPoint) -> None:
         if self.jp_member is None:

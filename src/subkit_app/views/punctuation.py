@@ -20,6 +20,7 @@ from subkit.core.punctuation_profiles import ProfileConflictError, apply, create
 from subkit.languages import lane_label
 from subkit.proc import CancelledError, KillableRun
 from .. import help as help_ui
+from .. import pool as job_pool
 
 INHERIT = "沿用这一行的字体"
 SAMPLES = {
@@ -504,7 +505,7 @@ class PunctuationDialog(QDialog):
         self._job.signals.ready.connect(self._ready)
         self._job.signals.failed.connect(self._failed)
         self._job.signals.finished.connect(self._collect)
-        self.pool.start(self._job)
+        job_pool.start(self._job, pool=self.pool)
 
     def _ready(self, result):
         if not self._closing and self._render_revision == self._revision:
